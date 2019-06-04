@@ -104,46 +104,46 @@ zh_CN:
         date_year: "MMM 'YY"
       medium:
         x_minutes:
-          one: "%{count} min"
-          other: "%{count} mins"
+          one: "%{count} 分钟"
+          other: "%{count} 分钟"
         x_hours:
-          one: "%{count} hour"
-          other: "%{count} hours"
+          one: "%{count} 小时"
+          other: "%{count} 小时"
         x_days:
-          one: "%{count} day"
-          other: "%{count} days"
+          one: "%{count} 天"
+          other: "%{count} 天"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_year: "D MMM 'YY"
       medium_with_ago:
         x_minutes:
-          one: "%{count} min ago"
-          other: "%{count} mins ago"
+          one: "%{count} 分钟前"
+          other: "%{count} 分钟前"
         x_hours:
-          one: "%{count} hour ago"
-          other: "%{count} hours ago"
+          one: "%{count} 小时前"
+          other: "%{count} 小时前"
         x_days:
-          one: "%{count} day ago"
-          other: "%{count} days ago"
+          one: "%{count} 天前"
+          other: "%{count} 天前"
       later:
         x_days:
-          one: "%{count} day later"
-          other: "%{count} days later"
+          one: "%{count} 天后"
+          other: "%{count} 天后"
         x_months:
-          one: "%{count} month later"
-          other: "%{count} months later"
+          one: "%{count} 月后"
+          other: "%{count} 月后"
         x_years:
-          one: "%{count} year later"
-          other: "%{count} years later"
-      previous_month: "Previous Month"
-      next_month: "Next Month"
+          one: "%{count} 年后"
+          other: "%{count} 年后"
+      previous_month: "前月"
+      next_month: "后月"
       placeholder: date
     share:
-      topic_html: 'Topic: <span class="topic-title">%{topicTitle}</span>'
-      post: "post #%{postNumber}"
-      close: "close"
-      twitter: "Share this link on Twitter"
-      facebook: "Share this link on Facebook"
-      email: "Send this link in an email"
+      topic_html: '话题: <span class="topic-title">%{topicTitle}</span>'
+      post: "帖子 #%{postNumber}"
+      close: "关闭"
+      twitter: "分享链接到 Twitter"
+      facebook: "分享链接到 Facebook"
+      email: "通过电子邮件发送链接"
 
     action_codes:
       public_topic: "made this topic public %{when}"
