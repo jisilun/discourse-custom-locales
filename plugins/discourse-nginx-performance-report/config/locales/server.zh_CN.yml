@@ -1,0 +1,3 @@
+zh_CN:
+  site_settings:
+    daily_performance_report: "每天分析 NGINX 日志并发布详细信息（仅限管理员）"

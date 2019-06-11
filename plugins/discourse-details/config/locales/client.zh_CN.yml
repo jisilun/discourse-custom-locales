@@ -1,0 +1,7 @@
+zh_CN:
+  js:
+    details:
+      title: 隐藏详情
+    composer:
+      details_title: 摘要
+      details_text: "此内容将被隐藏"

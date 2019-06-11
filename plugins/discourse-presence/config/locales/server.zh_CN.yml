@@ -1,0 +1,4 @@
+zh_CN:
+  site_settings:
+    presence_enabled: '显示正在回复当前话题或编辑当前帖子的用户？'
+    presence_max_users_shown: '显示的最大用户数。'

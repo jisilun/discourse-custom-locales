@@ -1,0 +1,5 @@
+zh_CN:
+  site_settings:
+    details_enabled: "启用详细信息功能。 如果您更改此项，则必须使用此命令重新调制所有帖子: \"rake posts:rebake\"。"
+  details:
+    excerpt_details: "（点击了解更多详情）"
