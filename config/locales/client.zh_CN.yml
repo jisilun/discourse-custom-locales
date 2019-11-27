@@ -298,7 +298,7 @@ zh_CN:
       clear_bookmarks: "Clear Bookmarks"
       help:
         bookmark: "Click to bookmark the first post on this topic"
-        unbookmark: "Click to remove all bookmarks in this topic"c
+        unbookmark: "Click to remove all bookmarks in this topic"
 
     bookmarks:
       created: "you've bookmarked this post"
