@@ -104,46 +104,52 @@ zh_CN:
         date_year: "MMM 'YY"
       medium:
         x_minutes:
-          one: "%{count} 分钟"
-          other: "%{count} 分钟"
+          one: "%{count} min"
+          other: "%{count} mins"
         x_hours:
-          one: "%{count} 小时"
-          other: "%{count} 小时"
+          one: "%{count} hour"
+          other: "%{count} hours"
         x_days:
-          one: "%{count} 天"
-          other: "%{count} 天"
+          one: "%{count} day"
+          other: "%{count} days"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_year: "D MMM 'YY"
       medium_with_ago:
         x_minutes:
-          one: "%{count} 分钟前"
-          other: "%{count} 分钟前"
+          one: "%{count} min ago"
+          other: "%{count} mins ago"
         x_hours:
-          one: "%{count} 小时前"
-          other: "%{count} 小时前"
+          one: "%{count} hour ago"
+          other: "%{count} hours ago"
         x_days:
-          one: "%{count} 天前"
-          other: "%{count} 天前"
+          one: "%{count} day ago"
+          other: "%{count} days ago"
+        x_months:
+          one: "%{count} month ago"
+          other: "%{count} months ago"
+        x_years:
+          one: "%{count} year ago"
+          other: "%{count} years ago"
       later:
         x_days:
-          one: "%{count} 天后"
-          other: "%{count} 天后"
+          one: "%{count} day later"
+          other: "%{count} days later"
         x_months:
-          one: "%{count} 月后"
-          other: "%{count} 月后"
+          one: "%{count} month later"
+          other: "%{count} months later"
         x_years:
-          one: "%{count} 年后"
-          other: "%{count} 年后"
-      previous_month: "前月"
-      next_month: "后月"
-      placeholder: 日期
+          one: "%{count} year later"
+          other: "%{count} years later"
+      previous_month: "Previous Month"
+      next_month: "Next Month"
+      placeholder: date
     share:
-      topic_html: '话题: <span class="topic-title">%{topicTitle}</span>'
-      post: "贴文 #%{postNumber}"
-      close: "关闭"
-      twitter: "分享到Twitter"
-      facebook: "分享到Facebook"
-      email: "通过Email发送链接"
+      topic_html: 'Topic: <span class="topic-title">%{topicTitle}</span>'
+      post: "post #%{postNumber}"
+      close: "close"
+      twitter: "Share this link on Twitter"
+      facebook: "Share this link on Facebook"
+      email: "Send this link in an email"
 
     action_codes:
       public_topic: "made this topic public %{when}"
@@ -186,7 +192,7 @@ zh_CN:
     bootstrap_mode_disabled: "Bootstrap mode will be disabled within 24 hours."
 
     themes:
-      default_description: "预设"
+      default_description: "Default"
       broken_theme_alert: "Your site may not work because theme / component %{theme} has errors. Disable it at %{path}."
 
     s3:
@@ -212,35 +218,35 @@ zh_CN:
         us_west_1: "US West (N. California)"
         us_west_2: "US West (Oregon)"
 
-    edit: "编辑此话题的标题与分类"
-    expand: "展开"
-    not_implemented: "抱歉，此功能尚未开放！"
+    edit: "edit the title and category of this topic"
+    expand: "Expand"
+    not_implemented: "That feature hasn't been implemented yet, sorry!"
     no_value: "No"
     yes_value: "Yes"
-    submit: "提交"
-    generic_error: "抱歉，发生错误。"
-    generic_error_with_reason: "发生错误：%{error}"
-    go_ahead: "继续"
-    sign_up: "注册"
-    log_in: "登录"
-    age: "已建立"
-    joined: "加入时间"
-    admin_title: "管理员"
-    show_more: "显示更多"
-    show_help: "选项"
-    links: "链接"
+    submit: "Submit"
+    generic_error: "Sorry, an error has occurred."
+    generic_error_with_reason: "An error occurred: %{error}"
+    go_ahead: "Go ahead"
+    sign_up: "Sign Up"
+    log_in: "Log In"
+    age: "Age"
+    joined: "Joined"
+    admin_title: "Admin"
+    show_more: "show more"
+    show_help: "options"
+    links: "Links"
     links_lowercase:
       one: "link"
       other: "links"
     faq: "FAQ"
-    guidelines: "守则"
-    privacy_policy: "隐私政策"
-    privacy: "隐私"
-    tos: "服务条款"
-    rules: "规则"
-    conduct: "行为准则"
-    mobile_view: "手机版"
-    desktop_view: "电脑版"
+    guidelines: "Guidelines"
+    privacy_policy: "Privacy Policy"
+    privacy: "Privacy"
+    tos: "Terms of Service"
+    rules: "Rules"
+    conduct: "Code of Conduct"
+    mobile_view: "Mobile View"
+    desktop_view: "Desktop View"
     you: "You"
     or: "or"
     now: "just now"
@@ -262,32 +268,34 @@ zh_CN:
 
     related_messages:
       title: "Related Messages"
+      see_all: 'See <a href="%{path}">all messages</a> from @%{username}...'
 
     suggested_topics:
       title: "Suggested Topics"
       pm_title: "Suggested Messages"
 
     about:
-      simple_title: "关于"
-      title: "关于%{title}"
-      stats: "网站统计数据"
-      our_admins: "我们的管理员"
-      our_moderators: "我们的版主"
+      simple_title: "About"
+      title: "About %{title}"
+      stats: "Site Statistics"
+      our_admins: "Our Admins"
+      our_moderators: "Our Moderators"
+      moderators: "Moderators"
       stat:
-        all_time: "所有时间"
-        last_7_days: "最近7天"
-        last_30_days: "最近30天"
+        all_time: "All Time"
+        last_7_days: "Last 7"
+        last_30_days: "Last 30"
       like_count: "Likes"
-      topic_count: "话题"
-      post_count: "贴文"
-      user_count: "用户"
-      active_user_count: "活跃用户"
-      contact: "联络我们"
+      topic_count: "Topics"
+      post_count: "Posts"
+      user_count: "Users"
+      active_user_count: "Active Users"
+      contact: "Contact Us"
       contact_info: "In the event of a critical issue or urgent matter affecting this site, please contact us at %{contact_info}."
 
     bookmarked:
-      title: "书签"
-      clear_bookmarks: "清除书签"
+      title: "Bookmark"
+      clear_bookmarks: "Clear Bookmarks"
       help:
         bookmark: "Click to bookmark the first post on this topic"
         unbookmark: "Click to remove all bookmarks in this topic"
@@ -321,16 +329,16 @@ zh_CN:
       one: "See {{count}} new topic"
       other: "See {{count}} new topics"
 
-    preview: "预览"
-    cancel: "取消"
+    preview: "preview"
+    cancel: "cancel"
 
-    save: "保存更改"
-    saving: "保存中..."
-    saved: "保存完毕！"
+    save: "Save Changes"
+    saving: "Saving..."
+    saved: "Saved!"
 
-    upload: "上传"
-    uploading: "正在上传..."
-    uploading_filename: "正在上传: {{filename}}..."
+    upload: "Upload"
+    uploading: "Uploading..."
+    uploading_filename: "Uploading: {{filename}}..."
     clipboard: "clipboard"
     uploaded: "Uploaded!"
 
@@ -343,15 +351,18 @@ zh_CN:
     revert: "Revert"
     failed: "Failed"
 
-    switch_to_anon: "进入匿名模式"
-    switch_from_anon: "离开匿名模式"
+    switch_to_anon: "Enter Anonymous Mode"
+    switch_from_anon: "Exit Anonymous Mode"
 
     banner:
-      close: "关闭此横幅"
-      edit: "编辑此横幅 >>"
+      close: "Dismiss this banner."
+      edit: "Edit this banner >>"
+
+    pwa:
+      install_banner: "Do you want to <a href>install %{title} on this device?</a>"
 
     choose_topic:
-      none_found: "未找到任何话题"
+      none_found: "No topics found."
       title:
         search: "Search for a Topic by title, url or id:"
         placeholder: "type the topic title here"
@@ -363,6 +374,28 @@ zh_CN:
         placeholder: "type the message title here"
 
     review:
+      order_by: "Order by"
+      in_reply_to: "in reply to"
+      explain:
+        why: "explain why this item ended up in the queue"
+        title: "Reviewable Scoring"
+        formula: "Formula"
+        subtotal: "Subtotal"
+        total: "Total"
+        min_score_visibility: "Minimum Score for Visibility"
+        score_to_hide: "Score to Hide Post"
+        take_action_bonus:
+          name: "took action"
+          title: "When a staff member chooses to take action the flag is given a bonus."
+        user_accuracy_bonus:
+          name: "user accuracy"
+          title: "Users whose flags have been historically agreed with are given a bonus."
+        trust_level_bonus:
+          name: "trust level"
+          title: "Reviewable items created by higher trust level users have a higher score."
+        type_bonus:
+          name: "type bonus"
+          title: "Certain reviewable types can be assigned a bonus by staff to make them a higher priority."
       claim_help:
         optional: "You can claim this item to prevent others from reviewing it."
         required: "You must claim items before you can review them."
@@ -431,9 +464,10 @@ zh_CN:
       edit: "Edit"
       save: "Save"
       cancel: "Cancel"
-      new_topic: "New Topic:"
+      new_topic: "Approving this item will create a new topic"
 
       filters:
+        all_categories: "(all categories)"
         type:
           title: "Type"
           all: "(all types)"
@@ -441,9 +475,15 @@ zh_CN:
         refresh: "Refresh"
         status: "Status"
         category: "Category"
+        orders:
+          priority: "Priority"
+          priority_asc: "Priority (reverse)"
+          created_at: "Created At"
+          created_at_asc: "Created At (reverse)"
+
         priority:
           title: "Minimum Priority"
-          low: "Low"
+          low: "(any)"
           medium: "Medium"
           high: "High"
 
@@ -470,14 +510,16 @@ zh_CN:
         deleted:
           title: "Deleted"
         reviewed:
-          title: "(All Reviewed)"
+          title: "(all reviewed)"
         all:
-          title: "(Everything)"
+          title: "(everything)"
 
       types:
         reviewable_flagged_post:
           title: "Flagged Post"
           flagged_by: "Flagged By"
+        reviewable_queued_topic:
+          title: "Queued Topic"
         reviewable_queued_post:
           title: "Queued Post"
         reviewable_user:
@@ -638,6 +680,7 @@ zh_CN:
         remove_owner: "Remove as Owner"
         remove_owner_description: "Remove <b>%{username}</b> as an owner of this group"
         owner: "Owner"
+        forbidden: "You're not allowed to view the members."
       topics: "Topics"
       posts: "Posts"
       mentions: "Mentions"
@@ -650,6 +693,7 @@ zh_CN:
         only_admins: "Only admins"
         mods_and_admins: "Only moderators and Admins"
         members_mods_and_admins: "Only group members, moderators and admins"
+        owners_mods_and_admins: "Only group owners, moderators and admins"
         everyone: "Everyone"
       notifications:
         watching:
@@ -777,6 +821,7 @@ zh_CN:
       collapse_profile: "Collapse"
       bookmarks: "Bookmarks"
       bio: "About me"
+      timezone: "Timezone"
       invited_by: "Invited By"
       trust_level: "Trust Level"
       notifications: "Notifications"
@@ -788,9 +833,7 @@ zh_CN:
         perm_denied_btn: "Permission Denied"
         perm_denied_expl: "You denied permission for notifications. Allow notifications via your browser settings."
         disable: "Disable Notifications"
-        currently_enabled: ""
         enable: "Enable Notifications"
-        currently_disabled: ""
         each_browser_note: "Note: You have to change this setting on every browser you use."
         consent_prompt: "Do you want live notifications when people reply to your posts?"
       dismiss: "Dismiss"
@@ -857,9 +900,7 @@ zh_CN:
       muted_users_instructions: "Suppress all notifications from these users."
       ignored_users: "Ignored"
       ignored_users_instructions: "Suppress all posts and notifications from these users."
-      muted_topics_link: "Show muted topics"
-      watched_topics_link: "Show watched topics"
-      tracked_topics_link: "Show tracked topics"
+      tracked_topics_link: "Show"
       automatically_unpin_topics: "Automatically unpin topics when I reach the bottom."
       apps: "Apps"
       revoke_access: "Revoke Access"
@@ -916,20 +957,22 @@ zh_CN:
         disable: "Disable"
         enable: "Enable"
         enable_long: "Enable backup codes"
-        manage: "Manage backup codes"
+        manage: "Manage backup codes. You have <strong>{{count}}</strong> backup codes remaining."
         copied_to_clipboard: "Copied to Clipboard"
         copy_to_clipboard_error: "Error copying data to Clipboard"
         remaining_codes: "You have <strong>{{count}}</strong> backup codes remaining."
-        use: "<a href>Use a backup code</a>"
+        use: "Use a backup code"
+        enable_prerequisites: "You must enable a primary second factor before generating backup codes."
         codes:
           title: "Backup Codes Generated"
           description: "Each of these backup codes can only be used once. Keep them somewhere safe but accessible."
 
       second_factor:
         title: "Two Factor Authentication"
-        disable: "Disable Two Factor Authentication"
-        enable: "Enable Two Factor Authentication"
+        enable: "Manage Two Factor Authentication"
+        forgot_password: "Forgot password?"
         confirm_password_description: "Please confirm your password to continue"
+        name: "Name"
         label: "Code"
         rate_limit: "Please wait before trying another authentication code."
         enable_description: |
@@ -941,8 +984,29 @@ zh_CN:
         extended_description: |
           Two factor authentication adds extra security to your account by requiring a one-time token in addition to your password. Tokens can be generated on <a href="https://www.google.com/search?q=authenticator+apps+for+android" target='_blank'>Android</a> and <a href="https://www.google.com/search?q=authenticator+apps+for+ios">iOS</a> devices.
         oauth_enabled_warning: "Please note that social logins will be disabled once two factor authentication has been enabled on your account."
-        use: "<a href>Use Authenticator app</a>"
+        use: "Use Authenticator app"
         enforced_notice: "You are required to enable two factor authentication before accessing this site."
+        disable: "disable"
+        disable_title: "Disable Second Factor"
+        disable_confirm: "Are you sure you want to disable all second factors?"
+        edit: "Edit"
+        edit_title: "Edit Second Factor"
+        edit_description: "Second Factor Name"
+        enable_security_key_description: "When you have your physical security key prepared press the Register button below."
+        totp:
+          title: "Token-Based Authenticators"
+          add: "New Authenticator"
+          default_name: "My Authenticator"
+        security_key:
+          register: "Register"
+          title: "Security Keys"
+          add: "Register Security Key"
+          default_name: "Main Security Key"
+          not_allowed_error: "The security key registration process either timed out or was cancelled."
+          already_added_error: "You have already registered this security key. You don’t have to register it again."
+          edit: "Edit Security Key"
+          edit_description: "Security Key Name"
+          delete: "Delete"
 
       change_about:
         title: "Change About Me"
@@ -971,12 +1035,11 @@ zh_CN:
         uploaded_avatar: "Custom picture"
         uploaded_avatar_empty: "Add a custom picture"
         upload_title: "Upload your picture"
-        upload_picture: "Upload Picture"
         image_is_not_a_square: "Warning: we've cropped your image; width and height were not equal."
 
       change_profile_background:
-        title: "Profile Background"
-        instructions: "Profile backgrounds will be centered and have a default width of 850px."
+        title: "Profile Header"
+        instructions: "Profile headers will be centered and have a default width of 1110px."
 
       change_card_background:
         title: "User Card Background"
@@ -1001,7 +1064,12 @@ zh_CN:
         title: "Associated Accounts"
         connect: "Connect"
         revoke: "Revoke"
+        cancel: "Cancel"
         not_connected: "(not connected)"
+        confirm_modal_title: "Connect %{provider} Account"
+        confirm_description:
+          account_specific: "Your %{provider} account '%{account_description}' will be used for authentication."
+          generic: "Your %{provider} account will be used for authentication."
 
       name:
         title: "Name"
@@ -1233,6 +1301,9 @@ zh_CN:
       title:
         title: "Title"
         none: "(none)"
+      primary_group:
+        title: "Primary Group"
+        none: "(none)"
 
       filters:
         all: "All"
@@ -1271,9 +1342,9 @@ zh_CN:
       enabled: "This site is in read only mode. Please continue to browse, but replying, likes, and other actions are disabled for now."
       login_disabled: "Login is disabled while the site is in read only mode."
       logout_disabled: "Logout is disabled while the site is in read only mode."
-    too_few_topics_and_posts_notice: "Let's <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/'>get this discussion started!</a> There are currently <strong>%{currentTopics} / %{requiredTopics}</strong> topics and <strong>%{currentPosts} / %{requiredPosts}</strong> posts. New visitors need some conversations to read and respond to."
-    too_few_topics_notice: "Let's <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/'>get this discussion started!</a> There are currently <strong>%{currentTopics} / %{requiredTopics}</strong> topics. New visitors need some conversations to read and respond to."
-    too_few_posts_notice: "Let's <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/'>get this discussion started!</a> There are currently <strong>%{currentPosts} / %{requiredPosts}</strong> posts. New visitors need some conversations to read and respond to."
+    too_few_topics_and_posts_notice: "Let's <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/'>start the discussion!</a> There are <strong>%{currentTopics}</strong> topics and <strong>%{currentPosts}</strong> posts. Visitors need more to read and reply to – we recommend at least <strong>%{requiredTopics}</strong> topics and <strong>%{requiredPosts}</strong> posts. Only staff can see this message."
+    too_few_topics_notice: "Let's <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/'>start the discussion!</a> There are <strong>%{currentTopics}</strong> topics. Visitors need more to read and reply to – we recommend at least <strong>%{requiredTopics}</strong> topics. Only staff can see this message."
+    too_few_posts_notice: "Let's <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/'>start the discussion!</a> There are <strong>%{currentPosts}</strong> posts. Visitors need more to read and reply to – we recommend at least <strong>%{requiredPosts}</strong> posts. Only staff can see this message."
     logs_error_rate_notice:
       # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
       reached_hour_MF: "<b>{relativeAge}</b> – <a href='{url}' target='_blank'>{rate, plural, one {# error/hour} other {# errors/hour}}</a> reached site setting limit of {limit, plural, one {# error/hour} other {# errors/hour}}."
@@ -1325,7 +1396,7 @@ zh_CN:
       disable: "Show All Posts"
 
     deleted_filter:
-      enabled_description: "This topic contains deleted posts, which have been hidden. "
+      enabled_description: "This topic contains deleted posts, which have been hidden."
       disabled_description: "Deleted posts in the topic are shown."
       enable: "Hide Deleted Posts"
       disable: "Show Deleted Posts"
@@ -1376,6 +1447,9 @@ zh_CN:
       complete_email_found: "We found an account that matches <b>%{email}</b>, you should receive an email with a login link shortly."
       complete_username_not_found: "No account matches the username <b>%{username}</b>"
       complete_email_not_found: "No account matches <b>%{email}</b>"
+      confirm_title: Continue to %{site_name}
+      logging_in_as: Logging in as %{email}
+      confirm_button: Finish Login
 
     login:
       title: "Log In"
@@ -1383,10 +1457,16 @@ zh_CN:
       password: "Password"
       second_factor_title: "Two Factor Authentication"
       second_factor_description: "Please enter the authentication code from your app:"
-      second_factor_backup: "<a href>Log in using a backup code</a>"
+      second_factor_backup: "Log in using a backup code"
       second_factor_backup_title: "Two Factor Backup"
       second_factor_backup_description: "Please enter one of your backup codes:"
-      second_factor: "<a href>Log in using Authenticator app</a>"
+      second_factor: "Log in using Authenticator app"
+      security_key_description: "When you have your physical security key prepared press the Authenticate with Security Key button below."
+      security_key_alternative: "Try another way"
+      security_key_authenticate: "Authenticate with Security Key"
+      security_key_not_allowed_error: "The security key authentication process either timed out or was cancelled."
+      security_key_no_matching_credential_error: "No matching credentials could be found in the provided security key."
+      security_key_support_missing_error: "Your current device or browser does not support the use of security keys. Please use a different method."
       email_placeholder: "email or username"
       caps_lock_warning: "Caps Lock is on"
       error: "Unknown error"
@@ -1421,23 +1501,24 @@ zh_CN:
       google_oauth2:
         name: "Google"
         title: "with Google"
-        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
       twitter:
         name: "Twitter"
         title: "with Twitter"
-        message: "Authenticating with Twitter (make sure pop up blockers are not enabled)"
       instagram:
         name: "Instagram"
         title: "with Instagram"
-        message: "Authenticating with Instagram (make sure pop up blockers are not enabled)"
       facebook:
         name: "Facebook"
         title: "with Facebook"
-        message: "Authenticating with Facebook (make sure pop up blockers are not enabled)"
       github:
         name: "GitHub"
         title: "with GitHub"
-        message: "Authenticating with GitHub (make sure pop up blockers are not enabled)"
+      discord:
+        name: "Discord"
+        title: "with Discord"
+      second_factor_toggle:
+        totp: "Use an authenticator app instead"
+        backup_code: "Use a backup code instead"
     invites:
       accept_title: "Invitation"
       welcome_to: "Welcome to %{site_name}!"
@@ -1457,7 +1538,7 @@ zh_CN:
       apple_international: "Apple/International"
       google: "Google"
       twitter: "Twitter"
-      emoji_one: "Emoji One"
+      emoji_one: "JoyPixels (formerly EmojiOne)"
       win10: "Win10"
       google_classic: "Google Classic"
       facebook_messenger: "Facebook Messenger"
@@ -1494,6 +1575,12 @@ zh_CN:
       min_content_not_reached:
         one: "Select at least {{count}} item."
         other: "Select at least {{count}} items."
+
+    date_time_picker:
+      from: From
+      to: To
+      errors:
+        to_before_from: "To date must be later than from date."
 
     emoji_picker:
       filter_placeholder: Search for emoji
@@ -1540,7 +1627,7 @@ zh_CN:
       drafts_offline: "drafts offline"
       edit_conflict: "edit conflict"
 
-      group_mentioned_limit: "<b>Warning!</b> You mentioned <a href='{{group_link}}'>{{group}}</a>, however this group has more members than the administrator configured mention limit of {{max}} users. Nobody will be notified. "
+      group_mentioned_limit: "<b>Warning!</b> You mentioned <a href='{{group_link}}'>{{group}}</a>, however this group has more members than the administrator configured mention limit of {{max}} users. Nobody will be notified."
       group_mentioned:
         one: "By mentioning {{group}}, you are about to notify <a href='{{group_link}}'>%{count} person</a> – are you sure?"
         other: "By mentioning {{group}}, you are about to notify <a href='{{group_link}}'>{{count}} people</a> – are you sure?"
@@ -1548,16 +1635,18 @@ zh_CN:
         category: "You mentioned {{username}} but they won't be notified because they do not have access to this category. You will need to add them to a group that has access to this category."
         private: "You mentioned {{username}} but they won't be notified because they are unable to see this personal message. You will need to invite them to this PM."
       duplicate_link: "It looks like your link to <b>{{domain}}</b> was already posted in the topic by <b>@{{username}}</b> in <a href='{{post_url}}'>a reply on {{ago}}</a> – are you sure you want to post it again?"
+      reference_topic_title: "RE: {{title}}"
 
       error:
         title_missing: "Title is required"
         title_too_short: "Title must be at least {{min}} characters"
         title_too_long: "Title can't be more than {{max}} characters"
-        post_missing: "Post can't be empty"
+        post_missing: "Post can’t be empty"
         post_length: "Post must be at least {{min}} characters"
         try_like: "Have you tried the {{heart}} button?"
         category_missing: "You must choose a category"
         tags_missing: "You must choose at least {{count}} tags"
+        topic_template_not_modified: "Please add details and specifics to your topic by editing the topic template."
 
       save_edit: "Save Edit"
       overwrite_edit: "Overwrite Edit"
@@ -1576,7 +1665,6 @@ zh_CN:
       title_placeholder: "What is this discussion about in one brief sentence?"
       title_or_link_placeholder: "Type title, or paste a link here"
       edit_reason_placeholder: "why are you editing?"
-      show_edit_reason: "(add edit reason)"
       topic_featured_link_placeholder: "Enter link shown with title."
       remove_featured_link: "Remove link from topic."
       reply_placeholder: "Type here. Use Markdown, BBCode, or HTML to format. Drag or paste images."
@@ -1601,7 +1689,7 @@ zh_CN:
       link_description: "enter link description here"
       link_dialog_title: "Insert Hyperlink"
       link_optional_text: "optional title"
-      link_url_placeholder: "https://example.com"
+      link_url_placeholder: "Paste a URL or type to search topics"
       quote_title: "Blockquote"
       quote_text: "Blockquote"
       code_title: "Preformatted text"
@@ -1648,7 +1736,7 @@ zh_CN:
           label: Toggle whisper
           desc: Whispers are only visible to staff members
         create_topic:
-          label: "New Topic"
+          label: "新建话题"
         shared_draft:
           label: "Shared Draft"
           desc: "Draft a topic that will only be visible to staff"
@@ -1667,7 +1755,6 @@ zh_CN:
       title: "notifications of @name mentions, replies to your posts and topics, messages, etc"
       none: "Unable to load notifications at this time."
       empty: "No notifications found."
-      more: "view older notifications"
       post_approved: "Your post was approved"
       reviewable_items: "items requiring review"
       mentioned: "<span>{{username}}</span> {{description}}"
@@ -1694,6 +1781,7 @@ zh_CN:
       granted_badge: "Earned '{{description}}'"
       topic_reminder: "<span>{{username}}</span> {{description}}"
       watching_first_post: "<span>New Topic</span> {{description}}"
+      membership_request_accepted: "Membership accepted in '{{group_name}}'"
 
       group_message_summary:
         one: "{{count}} message in your {{group_name}} inbox"
@@ -1711,6 +1799,27 @@ zh_CN:
         confirm_title: "Notifications enabled - %{site_title}"
         confirm_body: "Success! Notifications have been enabled."
         custom: "Notification from {{username}} on %{site_title}"
+
+      titles:
+        mentioned: "mentioned"
+        replied: "new reply"
+        quoted: "quoted"
+        edited: "edited"
+        liked: "new like"
+        private_message: "new private message"
+        invited_to_private_message: "invited to private message"
+        invitee_accepted: "invite accepted"
+        posted: "new post"
+        moved_post: "post moved"
+        linked: "linked"
+        granted_badge: "badge granted"
+        invited_to_topic: "invited to topic"
+        group_mentioned: "group mentioned"
+        group_message_summary: "new group messages"
+        watching_first_post: "new topic"
+        topic_reminder: "topic reminder"
+        liked_consolidated: "new likes"
+        post_approved: "post approved"
 
     upload_selector:
       title: "Add an image"
@@ -1759,6 +1868,7 @@ zh_CN:
       context:
         user: "Search posts by @{{username}}"
         category: "Search the #{{category}} category"
+        tag: "Search the #{{tag}} tag"
         topic: "Search this topic"
         private_messages: "Search messages"
 
@@ -1811,6 +1921,7 @@ zh_CN:
     go_back: "go back"
     not_logged_in_user: "user page with summary of current activity and preferences"
     current_user: "go to your user page"
+    view_all: "view all"
 
     topics:
       new_messages_marker: "last visit"
@@ -1869,7 +1980,7 @@ zh_CN:
       filter_to:
         one: "%{count} post in topic"
         other: "{{count}} posts in topic"
-      create: "New Topic"
+      create: "新建话题"
       create_long: "Create a new Topic"
       open_draft: "Open Draft"
       private_message: "Start a message"
@@ -1923,6 +2034,10 @@ zh_CN:
       toggle_information: "toggle topic details"
       read_more_in_category: "Want to read more? Browse other topics in {{catLink}} or {{latestLink}}."
       read_more: "Want to read more? {{catLink}} or {{latestLink}}."
+      group_request: "You need to request membership to the `{{name}}` group to see this topic"
+      group_join: "You need join the `{{name}}` group to see this topic"
+      group_request_sent: "Your group membership request has been sent. You will be informed when it's accepted."
+      unread_indicator: "No member has read the last post of this topic yet."
 
       # keys ending with _MF use message format, see https://meta.discourse.org/t/message-format-support-for-localization/7035 for details
       read_more_MF: "There {
@@ -2058,7 +2173,7 @@ zh_CN:
           description: "A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you."
         tracking:
           title: "Tracking"
-          description: "A count of new replies will be shown for this topic. You will be notified if someone mentions your @name or replies to you. "
+          description: "A count of new replies will be shown for this topic. You will be notified if someone mentions your @name or replies to you."
         regular:
           title: "Normal"
           description: "You will be notified if someone mentions your @name or replies to you."
@@ -2118,6 +2233,9 @@ zh_CN:
         title: "Flag"
         help: "privately flag this topic for attention or send a private notification about it"
         success_message: "You successfully flagged this topic."
+      make_public:
+        title: "Convert to Public Topic"
+        choose_category: "Please choose a category for the public topic:"
 
       feature_topic:
         title: "Feature this topic"
@@ -2331,9 +2449,16 @@ zh_CN:
         attachment_upload_not_allowed_for_new_user: "Sorry, new users can not upload attachments."
         attachment_download_requires_login: "Sorry, you need to be logged in to download attachments."
 
+      abandon_edit:
+        confirm: "Are you sure you want to discard your changes?"
+        no_value: "No, keep"
+        no_save_draft: "No, save draft"
+        yes_value: "Yes, discard edit"
+
       abandon:
         confirm: "Are you sure you want to abandon your post?"
         no_value: "No, keep"
+        no_save_draft: "No, save draft"
         yes_value: "Yes, abandon"
 
       via_email: "this post arrived via email"
@@ -2352,6 +2477,7 @@ zh_CN:
         reply: "begin composing a reply to this post"
         like: "like this post"
         has_liked: "you've liked this post"
+        read_indicator: "members who read this post"
         undo_like: "undo like"
         edit: "edit this post"
         edit_action: "Edit"
@@ -2388,6 +2514,7 @@ zh_CN:
         delete_topic: "delete topic"
         add_post_notice: "Add Staff Notice"
         remove_post_notice: "Remove Staff Notice"
+        remove_timer: "remove timer"
 
       actions:
         flag: "Flag"
@@ -2408,6 +2535,7 @@ zh_CN:
           notify_user: "sent a message"
           bookmark: "bookmarked this"
           like: "liked this"
+          read: "read this"
           like_capped:
             one: "and {{count}} other liked this"
             other: "and {{count}} others liked this"
@@ -2480,10 +2608,14 @@ zh_CN:
       tags_allowed_tags: "Restrict these tags to this category:"
       tags_allowed_tag_groups: "Restrict these tag groups to this category:"
       tags_placeholder: "(Optional) list of allowed tags"
-      tags_tab_description: "Tags and tag groups specified here will only be available in this category and other categories that also specify them. They won't be available for use in other categories."
+      tags_tab_description: "Tags and tag groups specified above will only be available in this category and other categories that also specify them. They won't be available for use in other categories."
       tag_groups_placeholder: "(Optional) list of allowed tag groups"
       manage_tag_groups_link: "Manage tag groups here."
       allow_global_tags_label: "Also allow other tags"
+      tag_group_selector_placeholder: "(Optional) Tag group"
+      required_tag_group_description: "Require new topics to have tags from a tag group:"
+      min_tags_from_required_group_label: "Num Tags:"
+      required_tag_group_label: "Tag group:"
       topic_featured_link_allowed: "Allow featured links in this category"
       delete: "Delete Category"
       create: "New Category"
@@ -2513,13 +2645,13 @@ zh_CN:
       special_warning: "Warning: This category is a pre-seeded category and the security settings cannot be edited. If you do not wish to use this category, delete it instead of repurposing it."
       uncategorized_security_warning: "This category is special. It is intended as holding area for topics that have no category; it cannot have security settings."
       uncategorized_general_warning: 'This category is special. It is used as the default category for new topics that do not have a category selected. If you want to prevent this behavior and force category selection, <a href="%{settingLink}">please disable the setting here</a>. If you want to change the name or description, go to <a href="%{customizeLink}">Customize / Text Content</a>.'
+      pending_permission_change_alert: "You haven't added %{group} to this category; click this button to add them."
       images: "Images"
       email_in: "Custom incoming email address:"
       email_in_allow_strangers: "Accept emails from anonymous users with no accounts"
       email_in_disabled: "Posting new topics via email is disabled in the Site Settings. To enable posting new topics via email, "
       email_in_disabled_click: 'enable the "email in" setting.'
       mailinglist_mirror: "Category mirrors a mailing list"
-      suppress_from_latest: "Suppress category from latest topics."
       show_subcategory_list: "Show subcategory list above topics in this category."
       num_featured_topics: "Number of topics shown on the categories page:"
       subcategory_num_featured_topics: "Number of featured topics on parent category's page:"
@@ -2666,7 +2798,8 @@ zh_CN:
         help: "This topic is pinned for you; it will display at the top of its category"
       unlisted:
         help: "This topic is unlisted; it will not be displayed in topic lists, and can only be accessed via a direct link"
-
+      personal_message:
+        title: "This topic is a personal message"
     posts: "Posts"
     posts_long: "there are {{number}} posts in this topic"
 
@@ -2719,7 +2852,7 @@ zh_CN:
         title: "Read"
         help: "topics you've read, in the order that you last read them"
       categories:
-        title: "Categories"
+        title: "分类"
         title_in: "Category - {{categoryName}}"
         help: "all topics grouped by category"
       unread:
@@ -2818,6 +2951,7 @@ zh_CN:
         up_down: "%{shortcut} Move selection &uarr; &darr;"
         open: "%{shortcut} Open selected topic"
         next_prev: "%{shortcut} Next/previous section"
+        go_to_unread_post: "%{shortcut} Go to the first unread post"
       application:
         title: "Application"
         create: "%{shortcut} Create a new topic"
@@ -2854,6 +2988,7 @@ zh_CN:
         mark_tracking: "%{shortcut} Track topic"
         mark_watching: "%{shortcut} Watch topic"
         print: "%{shortcut} Print topic"
+        defer: "%{shortcut} Defer topic"
 
     badges:
       earned_n_times:
@@ -2897,6 +3032,7 @@ zh_CN:
           <button class="btn btn-primary">Google</button>
         </form>
       </p>
+
     tagging:
       all_tags: "All Tags"
       other_tags: "Other Tags"
@@ -2958,11 +3094,13 @@ zh_CN:
         about: "Add tags to groups to manage them more easily."
         new: "New Group"
         tags_label: "Tags in this group:"
+        tags_placeholder: "tags"
         parent_tag_label: "Parent tag:"
         parent_tag_placeholder: "Optional"
         parent_tag_description: "Tags from this group can't be used unless the parent tag is present."
         one_per_topic_label: "Limit one tag per topic from this group"
         new_name: "New Tag Group"
+        name_placeholder: "Tag Group Name"
         save: "Save"
         delete: "Delete"
         confirm_delete: "Are you sure you want to delete this tag group?"
@@ -3084,11 +3222,12 @@ zh_CN:
           view_table: "table"
           view_graph: "graph"
           refresh_report: "Refresh Report"
-          start_date: "Start Date"
-          end_date: "End Date"
+          start_date: "Start Date (UTC)"
+          end_date: "End Date (UTC)"
           groups: "All groups"
           disabled: "This report is disabled"
           totals_for_sample: "Totals for sample"
+          average_for_sample: "Average for sample"
           total: "All time total"
           no_data: "No data to display."
           trending_search:
@@ -3132,13 +3271,20 @@ zh_CN:
             visibility_levels:
               title: "Who can see this group?"
               public: "Everyone"
-              members: "Group owners, members and admins"
+              logged_on_users: "Logged on users"
+              members: "Group owners, members"
               staff: "Group owners and staff"
-              owners: "Group owners and admins"
+              owners: "Group owners"
+              description: "Admins can see all groups."
+            members_visibility_levels:
+              title: "Who can see this group's members?"
+              description: "Admins can see members of all groups."
+            publish_read_state: "On group messages publish group read state"
+
           membership:
             automatic: Automatic
-            trust_level: Trust Level
             trust_levels_title: "Trust level automatically granted to members when they're added:"
+            effects: Effects
             trust_levels_none: "None"
             automatic_membership_email_domains: "Users who register with an email domain that exactly matches one in this list will be automatically added to this group:"
             automatic_membership_retroactive: "Apply the same email domain rule to add existing registered users"
@@ -3170,15 +3316,30 @@ zh_CN:
         none: "There are no active API keys right now."
         user: "User"
         title: "API"
-        key: "API Key"
+        key: "Key"
+        created: Created
+        updated: Updated
+        last_used: Last Used
+        never_used: (never)
         generate: "Generate"
-        regenerate: "Regenerate"
+        undo_revoke: "Undo Revoke"
         revoke: "Revoke"
-        confirm_regen: "Are you sure you want to replace that API Key with a new one?"
-        confirm_revoke: "Are you sure you want to revoke that key?"
-        info_html: "Your API key will allow you to create and update topics using JSON calls."
         all_users: "All Users"
-        note_html: "Keep this key <strong>secret</strong>, all users that have it may create arbitrary posts as any user."
+        active_keys: "Active API Keys"
+        manage_keys: Manage Keys
+        show_details: Details
+        description: Description
+        no_description: (no description)
+        all_api_keys: All API Keys
+        user_mode: User Level
+        impersonate_all_users: Impersonate any user
+        single_user: "Single User"
+        user_placeholder: Enter username
+        description_placeholder: What will this key be used for?
+        save: Save
+        new_key: New API Key
+        revoked: Revoked
+        delete: Permenantly Delete
 
       web_hooks:
         title: "Webhooks"
@@ -3241,6 +3402,9 @@ zh_CN:
         reviewable_event:
           name: "Reviewable Event"
           details: "When a new item is ready for review and when its status is updated."
+        notification_event:
+          name: "Notification Event"
+          details: "When a user receives a notification in their feed."
         delivery_status:
           title: "Delivery Status"
           inactive: "Inactive"
@@ -3380,7 +3544,7 @@ zh_CN:
         copy_to_clipboard_error: "Error copying data to Clipboard"
         theme_owner: "Not editable, owned by:"
         email_templates:
-          title: "Email Templates"
+          title: "Email"
           subject: "Subject"
           multiple_subjects: "This email template has multiple subjects."
           body: "Body"
@@ -3432,6 +3596,7 @@ zh_CN:
           inactive_themes: "Inactive themes:"
           inactive_components: "Unused components:"
           broken_theme_tooltip: "This theme has errors in its CSS, HTML or YAML"
+          disabled_component_tooltip: "This component has been disabled"
           default_theme_tooltip: "This theme is the site's default theme"
           updates_available_tooltip: "Updates are available for this theme"
           and_x_more: "and {{count}} more."
@@ -3457,7 +3622,7 @@ zh_CN:
           delete_upload_confirm: "Delete this upload? (Theme CSS may stop working!)"
           import_web_tip: "Repository containing theme"
           import_web_advanced: "Advanced..."
-          import_file_tip: ".tar.gz or .dcstyle.json file containing theme"
+          import_file_tip: ".tar.gz, .zip, or .dcstyle.json file containing theme"
           is_private: "Theme is in a private git repository"
           remote_branch: "Branch name (optional)"
           public_key: "Grant the following public key access to the repo:"
@@ -3472,6 +3637,10 @@ zh_CN:
           version: "Version:"
           authors: "Authored by:"
           source_url: "Source"
+          enable: "Enable"
+          disable: "Disable"
+          disabled: "This component has been disabled."
+          disabled_by: "This component has been disabled by"
           required_version:
             error: "This theme has been automatically disabled because it is not compatible with this version of Discourse."
             minimum: "Requires Discourse version {{version}} or above."
@@ -3491,7 +3660,7 @@ zh_CN:
             other: "Theme is {{count}} commits behind!"
           compare_commits: "(See new commits)"
           repo_unreachable: "Couldn't contact the Git repository of this theme. Error message:"
-          imported_from_archive: "This theme was imported from a .tar.gz file"
+          imported_from_archive: "This theme was imported from a .zip file"
           scss:
             text: "CSS"
             title: "Enter custom CSS, we accept all valid CSS and SCSS styles"
@@ -3561,6 +3730,19 @@ zh_CN:
           love:
             name: "love"
             description: "The like button's color."
+        robots:
+          title: "Override your site's robots.txt file:"
+          warning: "This will permanently override any related site settings."
+          overridden: Your site's default robots.txt file is overridden.
+        email_style:
+          title: "Email Style"
+          heading: "Customize Email Style"
+          html: "HTML Template"
+          css: "CSS"
+          reset: "Reset to default"
+          reset_confirm: "Are you sure you want to reset to the default %{fieldName} and lose all your changes?"
+          save_error_with_reason: "Your changes were not saved. %{error}"
+          instructions: "Customize the template in which all html emails are rendered, and style using CSS."
 
       email:
         title: "Emails"
@@ -3746,6 +3928,14 @@ zh_CN:
             embeddable_host_create: "embeddable host create"
             embeddable_host_update: "embeddable host update"
             embeddable_host_destroy: "embeddable host destroy"
+            change_theme_setting: "change theme setting"
+            disable_theme_component: "disable theme component"
+            enable_theme_component: "enable theme component"
+            revoke_title: "revoke title"
+            change_title: "change title"
+            api_key_create: "api key create"
+            api_key_update: "api key update"
+            api_key_destroy: "api key destroy"
         screened_emails:
           title: "Screened Emails"
           description: "When someone tries to create a new account, the following email addresses will be checked and the registration will be blocked, or some other action performed."
@@ -3795,6 +3985,13 @@ zh_CN:
         search: "search"
         clear_filter: "Clear"
         show_words: "show words"
+        one_word_per_line: "One word per line"
+        download: Download
+        clear_all: Clear All
+        clear_all_confirm_block: "Are you sure you want to clear all watched words for the Block action?"
+        clear_all_confirm_censor: "Are you sure you want to clear all watched words for the Censor action?"
+        clear_all_confirm_flag: "Are you sure you want to clear all watched words for the Flag action?"
+        clear_all_confirm_require_approval: "Are you sure you want to clear all watched words for the Require Approval action?"
         word_count:
           one: "%{count} word"
           other: "%{count} words"
@@ -3815,8 +4012,14 @@ zh_CN:
           add: "Add"
           success: "Success"
           exists: "Already exists"
-          upload: "Upload"
+          upload: "Add from file"
           upload_successful: "Upload successful. Words have been added."
+        test:
+          button_label: "Test"
+          modal_title: "Test '%{action}' Watched Words"
+          description: "Enter text below to check for matches with watched words"
+          found_matches: "Found matches:"
+          no_matches: "No matches found"
 
       impersonate:
         title: "Impersonate"
@@ -3957,7 +4160,7 @@ zh_CN:
           other: "Can't delete all posts. Some posts are older than %{count} days old. (The delete_user_max_post_age setting.)"
         cant_delete_all_too_many_posts:
           one: "Can't delete all posts because the user has more than %{count} post. (delete_all_posts_max)"
-          other: "Can't delete all posts because the user has more than %{count} posts.  (delete_all_posts_max)"
+          other: "Can't delete all posts because the user has more than %{count} posts. (delete_all_posts_max)"
         delete_confirm: "It is generally preferable to anonymize users rather than deleting them, to avoid removing content from existing discussions.<br><br>Are you SURE you want to delete this user? This is permanent!"
         delete_and_block: "Delete and <b>block</b> this email and IP address"
         delete_dont_block: "Delete only"
@@ -4017,8 +4220,8 @@ zh_CN:
           likes_received: "Likes Received"
           likes_received_days: "Likes Received: unique days"
           likes_received_users: "Likes Received: unique users"
-          suspended: "Suspended (all time)"
-          silenced: "Silenced (all time)"
+          suspended: "Suspended (last 6 months)"
+          silenced: "Silenced (last 6 months)"
           qualifies: "Qualifies for trust level 3."
           does_not_qualify: "Doesn't qualify for trust level 3."
           will_be_promoted: "Will be promoted soon."
@@ -4073,7 +4276,7 @@ zh_CN:
       site_text:
         description: "You can customize any of the text on your forum. Please start by searching below:"
         search: "Search for the text you'd like to edit"
-        title: "Text Content"
+        title: "Text"
         edit: "edit"
         revert: "Revert Changes"
         revert_confirm: "Are you sure you want to revert your changes?"
@@ -4133,6 +4336,10 @@ zh_CN:
           dashboard: "Dashboard"
         secret_list:
           invalid_input: "Input fields cannot be empty or contain vertical bar character."
+        default_categories:
+          modal_description: "Would you like to apply this change historically? This will change preferences for %{count} existing users."
+          modal_yes: "Yes"
+          modal_no: "No, only apply change going forward"
 
       badges:
         title: Badges
@@ -4170,7 +4377,7 @@ zh_CN:
         enabled: Enable badge
         icon: Icon
         image: Image
-        icon_help: "Use a Font Awesome class"
+        icon_help: "Enter a Font Awesome icon name (use prefix 'far-' for regular icons and 'fab-' for brand icons)"
         image_help: "Enter the URL of the image (overrides icon field if both are set)"
         query: Badge Query (SQL)
         target_posts: Query targets posts
@@ -4228,22 +4435,16 @@ zh_CN:
         category: "Post to Category"
         add_host: "Add Host"
         settings: "Embedding Settings"
-        feed_settings: "Feed Settings"
-        feed_description: "Providing an RSS/ATOM feed for your site can improve Discourse's ability to import your content."
         crawling_settings: "Crawler Settings"
         crawling_description: "When Discourse creates topics for your posts, if no RSS/ATOM feed is present it will attempt to parse your content out of your HTML. Sometimes it can be challenging to extract your content, so we provide the ability to specify CSS rules to make extraction easier."
 
         embed_by_username: "Username for topic creation"
         embed_post_limit: "Maximum number of posts to embed"
-        embed_username_key_from_feed: "Key to pull discourse username from feed"
         embed_title_scrubber: "Regular expression used to scrub the title of posts"
         embed_truncate: "Truncate the embedded posts"
         embed_whitelist_selector: "CSS selector for elements that are allowed in embeds"
         embed_blacklist_selector: "CSS selector for elements that are removed from embeds"
         embed_classname_whitelist: "Allowed CSS class names"
-        feed_polling_enabled: "Import posts via RSS/ATOM"
-        feed_polling_url: "URL of RSS/ATOM feed to crawl"
-        feed_polling_frequency_mins: "Frequency of feed polling (in minutes)"
         save: "Save Embedding Settings"
 
       permalink:
@@ -4265,41 +4466,41 @@ zh_CN:
 
       reseed:
         action:
-          label: "Replace Text…"
-          title: "Replace text of categories and topics with translations"
+          label: "替换文本…"
+          title: "用翻译替换分类和话题的文本"
 
         modal:
-          title: "Replace Text"
-          subtitle: "Replace text of system generated categories and topics with latest translations"
-          categories: "Categories"
-          topics: "Topics"
-          replace: "Replace"
+          title: "替换文本"
+          subtitle: "用最新翻译替换系统生成的分类和话题的文本"
+          categories: "分类"
+          topics: "话题"
+          replace: "替换"
 
   wizard_js:
     wizard:
-      done: "Done"
-      finish: "Finish"
-      back: "Back"
-      next: "Next"
+      done: "完成"
+      finish: "结束"
+      back: "返回"
+      next: "继续"
       step: "%{current} of %{total}"
-      upload: "Upload"
-      uploading: "Uploading..."
-      upload_error: "Sorry, there was an error uploading that file. Please try again."
-      quit: "Maybe Later"
+      upload: "上传"
+      uploading: "上传中..."
+      upload_error: "抱歉，上传该文件时出错，请再试一遍。"
+      quit: "以后再说"
 
       staff_count:
-        one: "Your community has %{count} staff (you). "
-        other: "Your community has %{count} staff, including you."
+        one: "阁下的社区有%{count}位管理员。"
+        other: "社区包含阁下在内共有%{count}位管理员。"
 
       invites:
-        add_user: "add"
-        none_added: "You haven’t invited any staff. Are you sure you want to continue?"
+        add_user: "添加"
+        none_added: "你尚未邀请任何员工，你确定要继续吗？"
         roles:
-          admin: "Admin"
-          moderator: "Moderator"
-          regular: "Regular User"
+          admin: "管理"
+          moderator: "版主"
+          regular: "用户"
 
       previews:
-        topic_title: "Discussion topic"
-        share_button: "Share"
-        reply_button: "Reply"
+        topic_title: "讨论的话题"
+        share_button: "分享"
+        reply_button: "回复"
