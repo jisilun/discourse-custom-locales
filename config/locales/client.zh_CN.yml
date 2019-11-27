@@ -2055,9 +2055,9 @@ zh_CN:
         other { {BOTH, select, true{and } false {are } other{}} <a href='{basePath}/new'># new</a> topics}
         } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}}"
 
-      browse_all_categories: Browse all categories
+      browse_all_categories: 浏览所有分类
 
-      view_latest_topics: view latest topics
+      view_latest_topics: 查看最新主题
       suggest_create_topic: Why not create a topic?
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
@@ -2837,7 +2837,7 @@ zh_CN:
       title: "Incoming Email"
       not_available: "Not available!"
 
-    categories_list: "Categories List"
+    categories_list: "分类列表"
 
     filters:
       with_topics: "%{filter} topics"
@@ -2845,50 +2845,50 @@ zh_CN:
       latest:
         title: "最新"
         title_with_count:
-          one: "Latest (%{count})"
-          other: "Latest ({{count}})"
-        help: "topics with recent posts"
+          one: "最新（%{count}）"
+          other: "最新（{{count}}）"
+        help: "最近帖子的主题"
       read:
         title: "已读"
-        help: "topics you've read, in the order that you last read them"
+        help: "您上次读过的主题顺序"
       categories:
         title: "分类"
-        title_in: "Category - {{categoryName}}"
-        help: "all topics grouped by category"
+        title_in: "分类 - {{categoryName}}"
+        help: "所有主题按分类分组"
       unread:
         title: "未读"
         title_with_count:
-          one: "Unread (%{count})"
-          other: "Unread ({{count}})"
-        help: "topics you are currently watching or tracking with unread posts"
+          one: "未读（%{count}）"
+          other: "未读（{{count}}）"
+        help: "您当前正在关注或跟踪的主题有未读帖子"
         lower_title_with_count:
-          one: "%{count} unread"
-          other: "{{count}} unread"
+          one: "%{count}个未读"
+          other: "{{count}}个未读"
       new:
         lower_title_with_count:
           one: "%{count} new"
           other: "{{count}} new"
-        lower_title: "新话题"
-        title: "新的"
+        lower_title: "new"
+        title: "新建"
         title_with_count:
-          one: "New (%{count})"
-          other: "New ({{count}})"
-        help: "topics created in the last few days"
+          one: "新建（%{count}）"
+          other: "新建（{{count}}）"
+        help: "最近新建的主题"
       posted:
-        title: "我的贴文"
-        help: "topics you have posted in"
+        title: "我的帖子"
+        help: "您参与过的主题"
       bookmarks:
         title: "书签"
-        help: "topics you have bookmarked"
+        help: "您已收藏的主题"
       category:
         title: "{{categoryName}}"
         title_with_count:
           one: "{{categoryName}} (%{count})"
           other: "{{categoryName}} ({{count}})"
-        help: "latest topics in the {{categoryName}} category"
+        help: "{{categoryName}} 分类中的最新主题"
       top:
         title: "热门"
-        help: "the most active topics in the last year, month, week or day"
+        help: "去年，每月，每周或每天最热门的主题"
         all:
           title: "所有时间"
         yearly:
@@ -2906,7 +2906,7 @@ zh_CN:
         this_quarter: "季"
         this_month: "月"
         this_week: "周"
-        today: "今天"
+        today: "天"
         other_periods: "其他时期"
 
     browser_update: 'Unfortunately, <a href="https://www.discourse.org/faq/#browser">your browser is too old to work on this site</a>. Please <a href="https://browsehappy.com">upgrade your browser</a>.'
@@ -2931,7 +2931,7 @@ zh_CN:
       shortcut_delimiter_or: "%{shortcut1} or %{shortcut2}"
       shortcut_delimiter_slash: "%{shortcut1}/%{shortcut2}"
       shortcut_delimiter_space: "%{shortcut1} %{shortcut2}"
-      title: "Keyboard Shortcuts"
+      title: "键盘快捷键"
       jump_to:
         title: "Jump To"
         home: "%{shortcut} Home"
@@ -3118,13 +3118,13 @@ zh_CN:
           bookmarks: "You have no bookmarked topics yet."
           top: "There are no top topics."
         bottom:
-          latest: "There are no more latest topics."
-          posted: "There are no more posted topics."
-          read: "There are no more read topics."
-          new: "There are no more new topics."
-          unread: "There are no more unread topics."
-          top: "There are no more top topics."
-          bookmarks: "There are no more bookmarked topics."
+          latest: "没有更多最新的主题。"
+          posted: "没有更多发布的主题。"
+          read: "没有更多已读的主题。"
+          new: "没有更多近期的主题。"
+          unread: "没有更多未读的主题。"
+          top: "没有更多热门的主题。"
+          bookmarks: "没有更多书签的主题。"
 
     invite:
       custom_message: "Make your invite a little bit more personal by writing a <a href>custom message</a>."
