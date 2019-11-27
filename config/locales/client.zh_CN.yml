@@ -27,8 +27,8 @@ zh_CN:
           format: "%n %u"
           units:
             byte:
-              one: Byte
-              other: Bytes
+              one: 字节
+              other: 字节
             gb: GB
             kb: KB
             mb: MB
@@ -40,108 +40,108 @@ zh_CN:
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
       time: "HH:mm"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      timeline_date: "MMM YYYY"
+      timeline_date: "YYYY-MM"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_no_year: "D MMM HH:mm"
+      long_no_year: "MM-DD HH:mm"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_no_year_no_time: "D MMM"
+      long_no_year_no_time: "MM-DD"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      full_no_year_no_time: "Do MMMM"
+      full_no_year_no_time: "MM月DD日"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_with_year: "D MMM YYYY HH:mm"
+      long_with_year: "YYYY-MM-DD HH:mm"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_with_year_no_time: "D MMM YYYY"
+      long_with_year_no_time: "YYYY-MM-DD"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      full_with_year_no_time: "D MMMM YYYY"
+      full_with_year_no_time: "YYYY年MM月DD日"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_with_year: "D MMM 'YY LT"
+      long_date_with_year: "YYYY-MM-DD LT"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_without_year: "D MMM LT"
+      long_date_without_year: "MM-DD LT"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_with_year_without_time: "D MMM 'YY"
+      long_date_with_year_without_time: "YYYY-MM-DD"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_without_year_with_linebreak: "D MMM <br/>LT"
+      long_date_without_year_with_linebreak: "MM-DD <br/>LT"
       # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-      long_date_with_year_with_linebreak: "D MMM 'YY <br/>LT"
+      long_date_with_year_with_linebreak: "YYYY-MM-DD <br/>LT"
 
       wrap_ago: "%{date} ago"
 
       tiny:
-        half_a_minute: "< 1分钟"
+        half_a_minute: "< 1m"
         less_than_x_seconds:
-          one: "< %{count}秒"
-          other: "< %{count}秒"
+          one: "< %{count}s"
+          other: "< %{count}s"
         x_seconds:
-          one: "%{count}秒"
-          other: "%{count}秒"
+          one: "%{count}s"
+          other: "%{count}s"
         less_than_x_minutes:
-          one: "< %{count}分钟"
-          other: "< %{count}分钟"
+          one: "< %{count}m"
+          other: "< %{count}m"
         x_minutes:
-          one: "%{count}分钟"
-          other: "%{count}分钟"
+          one: "%{count}m"
+          other: "%{count}m"
         about_x_hours:
-          one: "%{count}小时"
-          other: "%{count}小时"
+          one: "%{count}h"
+          other: "%{count}h"
         x_days:
-          one: "%{count}天"
-          other: "%{count}天"
+          one: "%{count}d"
+          other: "%{count}d"
         x_months:
-          one: "%{count}个月"
-          other: "%{count}个月"
+          one: "%{count}mon"
+          other: "%{count}mon"
         about_x_years:
-          one: "%{count}年"
-          other: "%{count}年"
+          one: "%{count}y"
+          other: "%{count}y"
         over_x_years:
-          one: "> %{count}年"
-          other: "> %{count}年"
+          one: "> %{count}y"
+          other: "> %{count}y"
         almost_x_years:
-          one: "%{count}年"
-          other: "%{count}年"
+          one: "%{count}y"
+          other: "%{count}y"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-        date_month: "D MMM"
+        date_month: "MM-DD"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-        date_year: "MMM 'YY"
+        date_year: "YYYY-MM"
       medium:
         x_minutes:
-          one: "%{count}分钟"
-          other: "%{count}分钟"
+          one: "%{count} min"
+          other: "%{count} mins"
         x_hours:
-          one: "%{count}小时"
-          other: "%{count}小时"
+          one: "%{count} hour"
+          other: "%{count} hours"
         x_days:
-          one: "%{count}天"
-          other: "%{count}天"
+          one: "%{count} day"
+          other: "%{count} days"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
-        date_year: "D MMM 'YY"
+        date_year: "YYYY-MM-DD"
       medium_with_ago:
         x_minutes:
-          one: "%{count}分钟前"
-          other: "%{count}分钟前"
+          one: "%{count} min ago"
+          other: "%{count} mins ago"
         x_hours:
-          one: "%{count}小时前"
-          other: "%{count}小时前"
+          one: "%{count} hour ago"
+          other: "%{count} hours ago"
         x_days:
-          one: "%{count}天前"
-          other: "%{count}天前"
+          one: "%{count} day ago"
+          other: "%{count} days ago"
         x_months:
-          one: "%{count}个月前"
-          other: "%{count}个月前"
+          one: "%{count} month ago"
+          other: "%{count} months ago"
         x_years:
-          one: "%{count}年前"
-          other: "%{count}年前"
+          one: "%{count} year ago"
+          other: "%{count} years ago"
       later:
         x_days:
-          one: "%{count}天后"
-          other: "%{count}天后"
+          one: "%{count} day later"
+          other: "%{count} days later"
         x_months:
-          one: "%{count}个月后"
-          other: "%{count}个月后"
+          one: "%{count} month later"
+          other: "%{count} months later"
         x_years:
-          one: "%{count}年后"
-          other: "%{count}年后"
-      previous_month: "上个月"
-      next_month: "下个月"
+          one: "%{count} year later"
+          other: "%{count} years later"
+      previous_month: "上月"
+      next_month: "下月"
       placeholder: 日期
     share:
       topic_html: '话题: <span class="topic-title">%{topicTitle}</span>'
