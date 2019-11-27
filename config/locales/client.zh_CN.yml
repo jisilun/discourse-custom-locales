@@ -136,14 +136,14 @@ zh_CN:
           other: "%{count} 年后"
       previous_month: "前月"
       next_month: "后月"
-      placeholder: date
+      placeholder: 日期
     share:
       topic_html: '话题: <span class="topic-title">%{topicTitle}</span>'
-      post: "帖子 #%{postNumber}"
+      post: "贴文 #%{postNumber}"
       close: "关闭"
-      twitter: "分享链接到 Twitter"
-      facebook: "分享链接到 Facebook"
-      email: "通过电子邮件发送链接"
+      twitter: "分享到Twitter"
+      facebook: "分享到Facebook"
+      email: "通过Email发送链接"
 
     action_codes:
       public_topic: "made this topic public %{when}"
@@ -186,7 +186,7 @@ zh_CN:
     bootstrap_mode_disabled: "Bootstrap mode will be disabled within 24 hours."
 
     themes:
-      default_description: "Default"
+      default_description: "预设"
       broken_theme_alert: "Your site may not work because theme / component %{theme} has errors. Disable it at %{path}."
 
     s3:
@@ -212,35 +212,35 @@ zh_CN:
         us_west_1: "US West (N. California)"
         us_west_2: "US West (Oregon)"
 
-    edit: "edit the title and category of this topic"
-    expand: "Expand"
-    not_implemented: "That feature hasn't been implemented yet, sorry!"
+    edit: "编辑此话题的标题与分类"
+    expand: "展开"
+    not_implemented: "抱歉，此功能尚未开放！"
     no_value: "No"
     yes_value: "Yes"
-    submit: "Submit"
-    generic_error: "Sorry, an error has occurred."
-    generic_error_with_reason: "An error occurred: %{error}"
+    submit: "提交"
+    generic_error: "抱歉，发生错误。"
+    generic_error_with_reason: "发生错误：%{error}"
     go_ahead: "继续"
     sign_up: "注册"
     log_in: "登录"
-    age: "Age"
-    joined: "Joined"
-    admin_title: "Admin"
-    show_more: "show more"
-    show_help: "options"
-    links: "Links"
+    age: "已建立"
+    joined: "加入时间"
+    admin_title: "管理员"
+    show_more: "显示更多"
+    show_help: "选项"
+    links: "链接"
     links_lowercase:
       one: "link"
       other: "links"
     faq: "FAQ"
-    guidelines: "Guidelines"
-    privacy_policy: "Privacy Policy"
-    privacy: "Privacy"
-    tos: "Terms of Service"
-    rules: "Rules"
-    conduct: "Code of Conduct"
-    mobile_view: "移动视图"
-    desktop_view: "桌面视图"
+    guidelines: "守则"
+    privacy_policy: "隐私政策"
+    privacy: "隐私"
+    tos: "服务条款"
+    rules: "规则"
+    conduct: "行为准则"
+    mobile_view: "手机版"
+    desktop_view: "电脑版"
     you: "You"
     or: "or"
     now: "just now"
@@ -268,26 +268,26 @@ zh_CN:
       pm_title: "Suggested Messages"
 
     about:
-      simple_title: "About"
-      title: "About %{title}"
-      stats: "Site Statistics"
-      our_admins: "Our Admins"
-      our_moderators: "Our Moderators"
+      simple_title: "关于"
+      title: "关于%{title}"
+      stats: "网站统计数据"
+      our_admins: "我们的管理员"
+      our_moderators: "我们的版主"
       stat:
-        all_time: "All Time"
-        last_7_days: "Last 7"
-        last_30_days: "Last 30"
+        all_time: "所有时间"
+        last_7_days: "最近7天"
+        last_30_days: "最近30天"
       like_count: "Likes"
-      topic_count: "Topics"
-      post_count: "Posts"
-      user_count: "Users"
-      active_user_count: "Active Users"
-      contact: "Contact Us"
+      topic_count: "话题"
+      post_count: "贴文"
+      user_count: "用户"
+      active_user_count: "活跃用户"
+      contact: "联络我们"
       contact_info: "In the event of a critical issue or urgent matter affecting this site, please contact us at %{contact_info}."
 
     bookmarked:
-      title: "Bookmark"
-      clear_bookmarks: "Clear Bookmarks"
+      title: "书签"
+      clear_bookmarks: "清除书签"
       help:
         bookmark: "Click to bookmark the first post on this topic"
         unbookmark: "Click to remove all bookmarks in this topic"
@@ -321,16 +321,16 @@ zh_CN:
       one: "See {{count}} new topic"
       other: "See {{count}} new topics"
 
-    preview: "preview"
-    cancel: "cancel"
+    preview: "预览"
+    cancel: "取消"
 
-    save: "Save Changes"
-    saving: "Saving..."
-    saved: "Saved!"
+    save: "保存更改"
+    saving: "保存中..."
+    saved: "保存完毕！"
 
-    upload: "Upload"
-    uploading: "Uploading..."
-    uploading_filename: "Uploading: {{filename}}..."
+    upload: "上传"
+    uploading: "正在上传..."
+    uploading_filename: "正在上传: {{filename}}..."
     clipboard: "clipboard"
     uploaded: "Uploaded!"
 
@@ -343,15 +343,15 @@ zh_CN:
     revert: "Revert"
     failed: "Failed"
 
-    switch_to_anon: "Enter Anonymous Mode"
-    switch_from_anon: "Exit Anonymous Mode"
+    switch_to_anon: "进入匿名模式"
+    switch_from_anon: "离开匿名模式"
 
     banner:
-      close: "Dismiss this banner."
-      edit: "Edit this banner >>"
+      close: "关闭此横幅"
+      edit: "编辑此横幅 >>"
 
     choose_topic:
-      none_found: "No topics found."
+      none_found: "未找到任何话题"
       title:
         search: "Search for a Topic by title, url or id:"
         placeholder: "type the topic title here"
