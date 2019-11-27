@@ -2869,11 +2869,11 @@ zh_CN:
           one: "%{count} new"
           other: "{{count}} new"
         lower_title: "new"
-        title: "新建"
+        title: "近期"
         title_with_count:
-          one: "新建（%{count}）"
-          other: "新建（{{count}}）"
-        help: "最近新建的主题"
+          one: "近期（%{count}）"
+          other: "近期（{{count}}）"
+        help: "近期创建的主题"
       posted:
         title: "我的帖子"
         help: "您参与过的主题"
@@ -2888,7 +2888,7 @@ zh_CN:
         help: "{{categoryName}} 分类中的最新主题"
       top:
         title: "热门"
-        help: "去年，每月，每周或每天最热门的主题"
+        help: "每年，每月，每周或每天最热门的主题"
         all:
           title: "所有时间"
         yearly:
@@ -3074,20 +3074,20 @@ zh_CN:
 
       notifications:
         watching:
-          title: "Watching"
-          description: "You will automatically watch all topics with this tag. You will be notified of all new posts and topics, plus the count of unread and new posts will also appear next to the topic."
+          title: "关注"
+          description: "将自动关注所有主题，所有新帖和主题的通知，并且主题显示未读和新帖的数量。"
         watching_first_post:
-          title: "Watching First Post"
-          description: "You will be notified of new topics in this tag but not replies to the topics."
+          title: "关注第一帖"
+          description: "将自动通知新主题的第一帖。"
         tracking:
-          title: "Tracking"
-          description: "You will automatically track all topics with this tag. A count of unread and new posts will appear next to the topic."
+          title: "跟踪"
+          description: "将自动跟踪所有主题，主题显示未读和新帖的数量。"
         regular:
-          title: "Regular"
-          description: "You will be notified if someone mentions your @name or replies to your post."
+          title: "正常"
+          description: "如果有人@你或回复你，将通知你。"
         muted:
-          title: "Muted"
-          description: "You will not be notified of anything about new topics with this tag, and they will not appear on your unread tab."
+          title: "静默"
+          description: "将不会收到任何有关新主题的通知。"
 
       groups:
         title: "Tag Groups"
