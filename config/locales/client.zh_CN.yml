@@ -144,7 +144,7 @@ zh_CN:
       next_month: "下月"
       placeholder: 日期
     share:
-      topic_html: '话题: <span class="topic-title">%{topicTitle}</span>'
+      topic_html: '主题: <span class="topic-title">%{topicTitle}</span>'
       post: "贴文 #%{postNumber}"
       close: "关闭"
       twitter: "分享至Twitter"
@@ -152,9 +152,9 @@ zh_CN:
       email: "通过Email分享"
 
     action_codes:
-      public_topic: "%{when} 将此话题公开"
-      private_topic: "%{when} 将此话题设为私信"
-      split_topic: "%{when} 将此话题拆分"
+      public_topic: "%{when} 将此主题公开"
+      private_topic: "%{when} 将此主题设为私信"
+      split_topic: "%{when} 将此主题拆分"
       invited_user: "invited %{who} %{when}"
       invited_group: "invited %{who} %{when}"
       user_left: "%{who} removed themselves from this message %{when}"
@@ -697,19 +697,19 @@ zh_CN:
         everyone: "Everyone"
       notifications:
         watching:
-          title: "Watching"
+          title: "关注"
           description: "You will be notified of every new post in every message, and a count of new replies will be shown."
         watching_first_post:
-          title: "Watching First Post"
+          title: "关注头帖"
           description: "You will be notified of new messages in this group but not replies to the messages."
         tracking:
-          title: "Tracking"
+          title: "跟踪"
           description: "You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
         regular:
-          title: "Normal"
+          title: "正常"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted:
-          title: "Muted"
+          title: "静默"
           description: "You will not be notified of anything about messages in this group."
       flair_url: "Avatar Flair Image"
       flair_url_placeholder: "(Optional) Image URL or Font Awesome class"
@@ -1736,7 +1736,7 @@ zh_CN:
           label: Toggle whisper
           desc: Whispers are only visible to staff members
         create_topic:
-          label: "新建话题"
+          label: "新建主题"
         shared_draft:
           label: "Shared Draft"
           desc: "Draft a topic that will only be visible to staff"
@@ -1980,8 +1980,8 @@ zh_CN:
       filter_to:
         one: "%{count} post in topic"
         other: "{{count}} posts in topic"
-      create: "新建话题"
-      create_long: "Create a new Topic"
+      create: "新建主题"
+      create_long: "创建一个新主题"
       open_draft: "Open Draft"
       private_message: "Start a message"
       archive_message:
@@ -2163,28 +2163,28 @@ zh_CN:
           "0_2": "You are ignoring all notifications on this topic."
           "0": "You are ignoring all notifications on this topic."
         watching_pm:
-          title: "Watching"
+          title: "关注"
           description: "You will be notified of every new reply in this message, and a count of new replies will be shown."
         watching:
-          title: "Watching"
+          title: "关注"
           description: "You will be notified of every new reply in this topic, and a count of new replies will be shown."
         tracking_pm:
-          title: "Tracking"
+          title: "跟踪"
           description: "A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you."
         tracking:
-          title: "Tracking"
+          title: "跟踪"
           description: "A count of new replies will be shown for this topic. You will be notified if someone mentions your @name or replies to you."
         regular:
-          title: "Normal"
+          title: "正常"
           description: "You will be notified if someone mentions your @name or replies to you."
         regular_pm:
-          title: "Normal"
+          title: "正常"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted_pm:
-          title: "Muted"
+          title: "静默"
           description: "You will never be notified of anything about this message."
         muted:
-          title: "Muted"
+          title: "静默"
           description: "You will never be notified of anything about this topic, and it will not appear in latest."
 
       actions:
@@ -2677,19 +2677,19 @@ zh_CN:
       navigate_to_first_post_after_read: "Navigate to first post after topics are read"
       notifications:
         watching:
-          title: "Watching"
+          title: "关注"
           description: "You will automatically watch all topics in these categories. You will be notified of every new post in every topic, and a count of new replies will be shown."
         watching_first_post:
-          title: "Watching First Post"
+          title: "关注头帖"
           description: "You will be notified of new topics in this category but not replies to the topics."
         tracking:
-          title: "Tracking"
+          title: "跟踪"
           description: "You will automatically track all topics in these categories. You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
         regular:
-          title: "Normal"
+          title: "正常"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted:
-          title: "Muted"
+          title: "静默"
           description: "You will never be notified of anything about new topics in these categories, and they will not appear in latest."
       search_priority:
         label: "Search Priority"
@@ -2873,7 +2873,7 @@ zh_CN:
         title_with_count:
           one: "近期（%{count}）"
           other: "近期（{{count}}）"
-        help: "近期创建的主题"
+        help: "最近创建的主题"
       posted:
         title: "我的帖子"
         help: "您参与过的主题"
@@ -3077,8 +3077,8 @@ zh_CN:
           title: "关注"
           description: "将自动关注所有主题，所有新帖和主题的通知，并且主题显示未读和新帖的数量。"
         watching_first_post:
-          title: "关注第一帖"
-          description: "将自动通知新主题的第一帖。"
+          title: "关注头帖"
+          description: "将自动通知新主题的头一帖。"
         tracking:
           title: "跟踪"
           description: "将自动跟踪所有主题，主题显示未读和新帖的数量。"
@@ -4467,13 +4467,13 @@ zh_CN:
       reseed:
         action:
           label: "替换文本…"
-          title: "用翻译替换分类和话题的文本"
+          title: "用翻译替换分类和主题的文本"
 
         modal:
           title: "替换文本"
-          subtitle: "用最新翻译替换系统生成的分类和话题的文本"
+          subtitle: "用最新翻译替换系统生成的分类和主题的文本"
           categories: "分类"
-          topics: "话题"
+          topics: "主题"
           replace: "替换"
 
   wizard_js:
@@ -4501,6 +4501,6 @@ zh_CN:
           regular: "用户"
 
       previews:
-        topic_title: "讨论的话题"
+        topic_title: "讨论的主题"
         share_button: "分享"
         reply_button: "回复"
