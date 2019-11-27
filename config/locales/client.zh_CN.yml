@@ -1971,10 +1971,10 @@ zh_CN:
         posted: "There are no more posted topics."
         read: "There are no more read topics."
         new: "There are no more new topics."
-        unread: "There are no more unread topics."
+        unread: "没有更多未读的主题。"
         category: "There are no more {{category}} topics."
-        top: "There are no more top topics."
-        bookmarks: "There are no more bookmarked topics."
+        top: "没有更多热门的主题。"
+        bookmarks: "没有更多收藏的主题。"
 
     topic:
       filter_to:
@@ -2840,8 +2840,8 @@ zh_CN:
     categories_list: "分类列表"
 
     filters:
-      with_topics: "%{filter} topics"
-      with_category: "%{filter} %{category} topics"
+      with_topics: "%{filter}主题"
+      with_category: %{category}的"%{filter}主题"
       latest:
         title: "最新"
         title_with_count:
@@ -3124,7 +3124,7 @@ zh_CN:
           new: "没有更多近期的主题。"
           unread: "没有更多未读的主题。"
           top: "没有更多热门的主题。"
-          bookmarks: "没有更多书签的主题。"
+          bookmarks: "没有更多收藏的主题。"
 
     invite:
       custom_message: "Make your invite a little bit more personal by writing a <a href>custom message</a>."
