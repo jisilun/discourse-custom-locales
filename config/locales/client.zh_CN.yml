@@ -152,9 +152,9 @@ zh_CN:
       email: "通过Email分享"
 
     action_codes:
-      public_topic: "made this topic public %{when}"
-      private_topic: "made this topic a personal message %{when}"
-      split_topic: "split this topic %{when}"
+      public_topic: "%{when} 将此话题公开"
+      private_topic: "%{when} 将此话题设为私信"
+      split_topic: "%{when} 将此话题拆分"
       invited_user: "invited %{who} %{when}"
       invited_group: "invited %{who} %{when}"
       user_left: "%{who} removed themselves from this message %{when}"
@@ -2843,20 +2843,20 @@ zh_CN:
       with_topics: "%{filter} topics"
       with_category: "%{filter} %{category} topics"
       latest:
-        title: "Latest"
+        title: "最新"
         title_with_count:
           one: "Latest (%{count})"
           other: "Latest ({{count}})"
         help: "topics with recent posts"
       read:
-        title: "Read"
+        title: "已读"
         help: "topics you've read, in the order that you last read them"
       categories:
         title: "分类"
         title_in: "Category - {{categoryName}}"
         help: "all topics grouped by category"
       unread:
-        title: "Unread"
+        title: "未读"
         title_with_count:
           one: "Unread (%{count})"
           other: "Unread ({{count}})"
@@ -2868,17 +2868,17 @@ zh_CN:
         lower_title_with_count:
           one: "%{count} new"
           other: "{{count}} new"
-        lower_title: "new"
-        title: "New"
+        lower_title: "新话题"
+        title: "新的"
         title_with_count:
           one: "New (%{count})"
           other: "New ({{count}})"
         help: "topics created in the last few days"
       posted:
-        title: "My Posts"
+        title: "我的贴文"
         help: "topics you have posted in"
       bookmarks:
-        title: "Bookmarks"
+        title: "书签"
         help: "topics you have bookmarked"
       category:
         title: "{{categoryName}}"
@@ -2887,27 +2887,27 @@ zh_CN:
           other: "{{categoryName}} ({{count}})"
         help: "latest topics in the {{categoryName}} category"
       top:
-        title: "Top"
+        title: "热门"
         help: "the most active topics in the last year, month, week or day"
         all:
-          title: "All Time"
+          title: "所有时间"
         yearly:
-          title: "Yearly"
+          title: "每年"
         quarterly:
-          title: "Quarterly"
+          title: "每季"
         monthly:
-          title: "Monthly"
+          title: "每月"
         weekly:
-          title: "Weekly"
+          title: "每周"
         daily:
-          title: "Daily"
-        all_time: "All Time"
-        this_year: "Year"
-        this_quarter: "Quarter"
-        this_month: "Month"
-        this_week: "Week"
-        today: "Today"
-        other_periods: "see top"
+          title: "每天"
+        all_time: "所有时间"
+        this_year: "年"
+        this_quarter: "季"
+        this_month: "月"
+        this_week: "周"
+        today: "今天"
+        other_periods: "其他时期"
 
     browser_update: 'Unfortunately, <a href="https://www.discourse.org/faq/#browser">your browser is too old to work on this site</a>. Please <a href="https://browsehappy.com">upgrade your browser</a>.'
 
