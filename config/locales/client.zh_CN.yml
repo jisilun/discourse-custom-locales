@@ -2841,7 +2841,7 @@ zh_CN:
 
     filters:
       with_topics: "%{filter}主题"
-      with_category: %{category}的"%{filter}主题"
+      with_category: "%{category}的"%{filter}主题"
       latest:
         title: "最新"
         title_with_count:
