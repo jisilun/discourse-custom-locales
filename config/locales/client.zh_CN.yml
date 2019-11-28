@@ -668,7 +668,7 @@ zh_CN:
       title:
         one: "Group"
         other: "Groups"
-      activity: "Activity"
+      activity: "活动"
       members:
         title: "Members"
         filter_placeholder_admin: "username or email"
@@ -814,7 +814,7 @@ zh_CN:
         mute_option_title: "You will not receive any notifications related to this user."
         normal_option: "Normal"
         normal_option_title: "You will be notified if this user replies to you, quotes you, or mentions you."
-      activity_stream: "Activity"
+      activity_stream: "活动"
       preferences: "Preferences"
       profile_hidden: "This user's public profile is hidden."
       expand_profile: "Expand"
@@ -1244,31 +1244,31 @@ zh_CN:
         instructions: "at least %{count} characters"
 
       summary:
-        title: "Summary"
-        stats: "Stats"
-        time_read: "read time"
-        recent_time_read: "recent read time"
+        title: "摘要"
+        stats: "统计"
+        time_read: "阅读时间"
+        recent_time_read: "最近阅读时间"
         topic_count:
-          one: "topic created"
-          other: "topics created"
+          one: "主题已创建"
+          other: "主题已创建"
         post_count:
-          one: "post created"
-          other: "posts created"
+          one: "帖子已创建"
+          other: "帖子已创建"
         likes_given:
-          one: "given"
-          other: "given"
+          one: "已给出"
+          other: "已给出"
         likes_received:
-          one: "received"
-          other: "received"
+          one: "已收到"
+          other: "已收到"
         days_visited:
-          one: "day visited"
-          other: "days visited"
+          one: "访问天数"
+          other: "访问天数"
         topics_entered:
-          one: "topic viewed"
-          other: "topics viewed"
+          one: "已看主题"
+          other: "已看主题"
         posts_read:
-          one: "post read"
-          other: "posts read"
+          one: "已读帖子"
+          other: "已读帖子"
         bookmark_count:
           one: "bookmark"
           other: "bookmarks"
