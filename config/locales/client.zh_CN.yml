@@ -277,7 +277,7 @@ zh_CN:
     about:
       simple_title: "关于"
       title: "关于%{title}"
-      stats: "网站统计"
+      stats: "站点统计"
       our_admins: "我们的管理"
       our_moderators: "我们的版主"
       moderators: "版主"
@@ -294,8 +294,8 @@ zh_CN:
       contact_info: "如果出现影响此网站的关键问题或紧急问题，请通过 %{contact_info} 与我们联系。"
 
     bookmarked:
-      title: "Bookmark"
-      clear_bookmarks: "Clear Bookmarks"
+      title: "加入书签"
+      clear_bookmarks: "移出书签"
       help:
         bookmark: "Click to bookmark the first post on this topic"
         unbookmark: "Click to remove all bookmarks in this topic"
