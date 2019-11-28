@@ -171,7 +171,7 @@ zh_CN:
         enabled: "%{when}存档"
         disabled: "%{when}解除"
       pinned:
-        enabled: "%{when}正常置顶"
+        enabled: "%{when}普通置顶"
         disabled: "%{when}解除置顶"
       pinned_globally:
         enabled: "%{when}全局置顶"
@@ -706,7 +706,7 @@ zh_CN:
           title: "跟踪"
           description: "You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
         regular:
-          title: "正常"
+          title: "普通"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted:
           title: "静默"
@@ -2175,10 +2175,10 @@ zh_CN:
           title: "跟踪"
           description: "A count of new replies will be shown for this topic. You will be notified if someone mentions your @name or replies to you."
         regular:
-          title: "正常"
+          title: "普通"
           description: "You will be notified if someone mentions your @name or replies to you."
         regular_pm:
-          title: "正常"
+          title: "普通"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted_pm:
           title: "静默"
@@ -2213,7 +2213,7 @@ zh_CN:
         remove_banner: "Remove Banner Topic"
 
       reply:
-        title: "Reply"
+        title: "回复"
         help: "begin composing a reply to this topic"
 
       clear_pin:
@@ -2221,16 +2221,16 @@ zh_CN:
         help: "Clear the pinned status of this topic so it no longer appears at the top of your topic list"
 
       share:
-        title: "Share"
+        title: "分享"
         extended_title: "Share a link"
         help: "share a link to this topic"
 
       print:
-        title: "Print"
+        title: "列印"
         help: "Open a printer friendly version of this topic"
 
       flag_topic:
-        title: "Flag"
+        title: "检举"
         help: "privately flag this topic for attention or send a private notification about it"
         success_message: "You successfully flagged this topic."
       make_public:
@@ -2686,7 +2686,7 @@ zh_CN:
           title: "跟踪"
           description: "You will automatically track all topics in these categories. You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
         regular:
-          title: "正常"
+          title: "普通"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted:
           title: "静默"
@@ -2794,7 +2794,7 @@ zh_CN:
         title: "全局置顶"
         help: "This topic is pinned globally; it will display at the top of latest and its category"
       pinned:
-        title: "正常置顶"
+        title: "普通置顶"
         help: "This topic is pinned for you; it will display at the top of its category"
       unlisted:
         help: "This topic is unlisted; it will not be displayed in topic lists, and can only be accessed via a direct link"
@@ -3083,7 +3083,7 @@ zh_CN:
           title: "跟踪"
           description: "将自动跟踪所有主题，主题显示未读和新帖的数量。"
         regular:
-          title: "正常"
+          title: "普通"
           description: "如果有人@你或回复你，将通知你。"
         muted:
           title: "静默"
