@@ -140,8 +140,8 @@ zh_CN:
         x_years:
           one: "%{count} year later"
           other: "%{count} years later"
-      previous_month: "上月"
-      next_month: "下月"
+      previous_month: "上个月"
+      next_month: "下个月"
       placeholder: 日期
     share:
       topic_html: '主题: <span class="topic-title">%{topicTitle}</span>'
@@ -155,11 +155,11 @@ zh_CN:
       public_topic: "%{when}使该主题设为公开"
       private_topic: "%{when}使该主题设为私信"
       split_topic: "%{when}使该主题设为拆分"
-      invited_user: "invited %{who} %{when}"
-      invited_group: "invited %{who} %{when}"
+      invited_user: "%{when}已邀请%{who}"
+      invited_group: "%{when}已邀请%{who}"
       user_left: "%{who} removed themselves from this message %{when}"
-      removed_user: "removed %{who} %{when}"
-      removed_group: "removed %{who} %{when}"
+      removed_user: "%{when}已移除%{who}"
+      removed_group: "%{when}已移除%{who}"
       autobumped: "automatically bumped %{when}"
       autoclosed:
         enabled: "%{when}锁定"
@@ -271,8 +271,8 @@ zh_CN:
       see_all: 'See <a href="%{path}">all messages</a> from @%{username}...'
 
     suggested_topics:
-      title: "Suggested Topics"
-      pm_title: "Suggested Messages"
+      title: "推荐主题"
+      pm_title: "推荐信息"
 
     about:
       simple_title: "关于"
