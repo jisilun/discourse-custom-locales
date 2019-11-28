@@ -145,16 +145,16 @@ zh_CN:
       placeholder: 日期
     share:
       topic_html: '主题: <span class="topic-title">%{topicTitle}</span>'
-      post: "贴文 #%{postNumber}"
+      post: "帖子 #%{postNumber}"
       close: "关闭"
       twitter: "分享至Twitter"
       facebook: "分享至Facebook"
       email: "通过Email分享"
 
     action_codes:
-      public_topic: "%{when} 将此主题公开"
-      private_topic: "%{when} 将此主题设为私信"
-      split_topic: "%{when} 将此主题拆分"
+      public_topic: "%{when}使该主题设为公开"
+      private_topic: "%{when}使该主题设为私信"
+      split_topic: "%{when}使该主题设为拆分"
       invited_user: "invited %{who} %{when}"
       invited_group: "invited %{who} %{when}"
       user_left: "%{who} removed themselves from this message %{when}"
@@ -162,14 +162,14 @@ zh_CN:
       removed_group: "removed %{who} %{when}"
       autobumped: "automatically bumped %{when}"
       autoclosed:
-        enabled: "closed %{when}"
-        disabled: "opened %{when}"
+        enabled: "%{when}锁定"
+        disabled: "%{when}解锁"
       closed:
-        enabled: "closed %{when}"
-        disabled: "opened %{when}"
+        enabled: "%{when}锁定"
+        disabled: "%{when}解锁"
       archived:
-        enabled: "archived %{when}"
-        disabled: "unarchived %{when}"
+        enabled: "%{when}存档"
+        disabled: "%{when}解除"
       pinned:
         enabled: "pinned %{when}"
         disabled: "unpinned %{when}"
@@ -177,8 +177,8 @@ zh_CN:
         enabled: "pinned globally %{when}"
         disabled: "unpinned %{when}"
       visible:
-        enabled: "listed %{when}"
-        disabled: "unlisted %{when}"
+        enabled: "%{when}列出"
+        disabled: "%{when}隐藏"
       banner:
         enabled: "made this a banner %{when}. It will appear at the top of every page until it is dismissed by the user."
         disabled: "removed this banner %{when}. It will no longer appear at the top of every page."
