@@ -157,7 +157,7 @@ zh_CN:
       split_topic: "%{when}使该主题设为拆分"
       invited_user: "%{when}已邀请%{who}"
       invited_group: "%{when}已邀请%{who}"
-      user_left: "%{who} removed themselves from this message %{when}"
+      user_left: "%{when}%{who}将自己从该信息中移除"
       removed_user: "%{when}已移除%{who}"
       removed_group: "%{when}已移除%{who}"
       autobumped: "automatically bumped %{when}"
@@ -171,11 +171,11 @@ zh_CN:
         enabled: "%{when}存档"
         disabled: "%{when}解除"
       pinned:
-        enabled: "pinned %{when}"
-        disabled: "unpinned %{when}"
+        enabled: "%{when}正常置顶"
+        disabled: "%{when}解除置顶"
       pinned_globally:
-        enabled: "pinned globally %{when}"
-        disabled: "unpinned %{when}"
+        enabled: "%{when}全局置顶"
+        disabled: "%{when}解除置顶"
       visible:
         enabled: "%{when}列出"
         disabled: "%{when}隐藏"
@@ -2788,13 +2788,13 @@ zh_CN:
       locked_and_archived:
         help: "This topic is closed and archived; it no longer accepts new replies and cannot be changed"
       unpinned:
-        title: "Unpinned"
+        title: "解除置顶"
         help: "This topic is unpinned for you; it will display in regular order"
       pinned_globally:
-        title: "Pinned Globally"
+        title: "全局置顶"
         help: "This topic is pinned globally; it will display at the top of latest and its category"
       pinned:
-        title: "Pinned"
+        title: "正常置顶"
         help: "This topic is pinned for you; it will display at the top of its category"
       unlisted:
         help: "This topic is unlisted; it will not be displayed in topic lists, and can only be accessed via a direct link"
