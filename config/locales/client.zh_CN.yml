@@ -647,27 +647,27 @@ zh_CN:
       selector_placeholder: "enter username"
       owner: "owner"
       index:
-        title: "Groups"
-        all: "All Groups"
+        title: "群组"
+        all: "所有群组"
         empty: "There are no visible groups."
         filter: "Filter by group type"
         owner_groups: "Groups I own"
-        close_groups: "Closed Groups"
+        close_groups: "封闭群组"
         automatic_groups: "Automatic Groups"
         automatic: "Automatic"
         closed: "Closed"
         public: "Public"
         private: "Private"
         public_groups: "Public Groups"
-        automatic_group: Automatic Group
+        automatic_group: 自动分组
         close_group: Close Group
-        my_groups: "My Groups"
-        group_type: "Group type"
+        my_groups: "我的群组"
+        group_type: "群组类型"
         is_group_user: "Member"
         is_group_owner: "Owner"
       title:
-        one: "Group"
-        other: "Groups"
+        one: "群组"
+        other: "群组"
       activity: "活动"
       members:
         title: "Members"
