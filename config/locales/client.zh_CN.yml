@@ -430,7 +430,7 @@ zh_CN:
       deleted_post: "(post deleted)"
       deleted_user: "(user deleted)"
       user:
-        username: "Username"
+        username: "用户名"
         email: "Email"
         name: "Name"
         fields: "Fields"
@@ -1051,7 +1051,7 @@ zh_CN:
         secondary: "Secondary Emails"
         no_secondary: "No secondary emails"
         sso_override_instructions: "Email can be updated from SSO provider."
-        instructions: "Never shown to the public."
+        instructions: "绝不被公开显示"
         ok: "We will email you to confirm"
         invalid: "Please enter a valid email address"
         authenticated: "Your email has been authenticated by {{provider}}"
@@ -1078,8 +1078,8 @@ zh_CN:
         too_short: "Your name is too short"
         ok: "Your name looks good"
       username:
-        title: "Username"
-        instructions: "unique, no spaces, short"
+        title: "用户名"
+        instructions: "独特，无空格，简短"
         short_instructions: "People can mention you as @{{username}}"
         available: "Your username is available"
         not_available: "Not available. Try {{suggestion}}?"
@@ -1241,7 +1241,7 @@ zh_CN:
         same_as_username: "Your password is the same as your username."
         same_as_email: "Your password is the same as your email."
         ok: "Your password looks good."
-        instructions: "at least %{count} characters"
+        instructions: "至少%{count}位数"
 
       summary:
         title: "摘要"
@@ -1418,14 +1418,14 @@ zh_CN:
     search_hint: "username, email or IP address"
 
     create_account:
-      disclaimer: "By registering, you agree to the <a href='{{privacy_link}}' target='blank'>privacy policy</a> and <a href='{{tos_link}}' target='blank'>terms of service</a>."
-      title: "Create New Account"
+      disclaimer: "注册账户即表示您同意<a href='{{privacy_link}}' target='blank'>隐私政策</a>和<a href='{{tos_link}}' target='blank'>服务条款</a>。"
+      title: "创建新账户"
       failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
 
     forgot_password:
       title: "重置密码"
       action: "我忘了密码"
-      invite: "Enter your username or email address, and we'll send you a password reset email."
+      invite: "输入您的用户名或电子邮箱，我们将向您发送密码重置邮件。"
       reset: "重置密码"
       complete_username: "If an account matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
       complete_email: "If an account matches <b>%{email}</b>, you should receive an email with instructions on how to reset your password shortly."
@@ -1467,7 +1467,7 @@ zh_CN:
       security_key_not_allowed_error: "The security key authentication process either timed out or was cancelled."
       security_key_no_matching_credential_error: "No matching credentials could be found in the provided security key."
       security_key_support_missing_error: "Your current device or browser does not support the use of security keys. Please use a different method."
-      email_placeholder: "email or username"
+      email_placeholder: "email or 用户名"
       caps_lock_warning: "Caps Lock is on"
       error: "Unknown error"
       cookies_error: "Your browser seems to have cookies disabled. You might not be able to log in without enabling them first."
@@ -4232,7 +4232,7 @@ zh_CN:
         sso:
           title: "Single Sign On"
           external_id: "External ID"
-          external_username: "Username"
+          external_username: "用户名"
           external_name: "Name"
           external_email: "Email"
           external_avatar_url: "Profile Picture URL"
