@@ -289,7 +289,7 @@ zh_CN:
       topic_count: "主题"
       post_count: "帖子"
       user_count: "用户"
-      active_user_count: "活跃\n用户"
+      active_user_count: "活跃\r\n用户"
       contact: "联络我们"
       contact_info: "如果出现影响此网站的关键问题或紧急事件，请通过 %{contact_info} 与我们联络。"
 
