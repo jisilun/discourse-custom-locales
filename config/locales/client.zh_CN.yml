@@ -289,7 +289,7 @@ zh_CN:
       topic_count: "主题"
       post_count: "帖子"
       user_count: "用户"
-      active_user_count: "活跃<br />用户"
+      active_user_count: "活跃<br><br>用户"
       contact: "联络我们"
       contact_info: "如果出现影响此网站的关键问题或紧急事件，请通过 %{contact_info} 与我们联络。"
 
@@ -823,7 +823,7 @@ zh_CN:
       bio: "关于我"
       timezone: "时区"
       invited_by: "Invited By"
-      trust_level: "信任等级"
+      trust_level: "信任级别"
       notifications: "通知"
       statistics: "Stats"
       desktop_notifications:
@@ -1414,7 +1414,7 @@ zh_CN:
     last_seen: "出现时间"
     created: "已加入"
     created_lowercase: "created"
-    trust_level: "信任等级"
+    trust_level: "信任级别"
     search_hint: "username, email or IP address"
 
     create_account:
@@ -3013,15 +3013,15 @@ zh_CN:
       successfully_granted: "Successfully granted %{badge} to %{username}"
       badge_grouping:
         getting_started:
-          name: Getting Started
+          name: 入门
         community:
-          name: Community
+          name: 社区
         trust_level:
-          name: Trust Level
+          name: 级别
         other:
-          name: Other
+          name: 其他
         posting:
-          name: Posting
+          name: 发帖
 
     google_search: |
       <h3>Search with Google</h3>
