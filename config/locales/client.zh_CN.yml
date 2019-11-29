@@ -1521,7 +1521,7 @@ zh_CN:
         backup_code: "Use a backup code instead"
     invites:
       accept_title: "Invitation"
-      welcome_to: "Welcome to %{site_name}!"
+      welcome_to: "欢迎来到%{site_name}!"
       invited_by: "You were invited by:"
       social_login_available: "You'll also be able to sign in with any social login using that email."
       your_email: "Your account email address is <b>%{email}</b>."
