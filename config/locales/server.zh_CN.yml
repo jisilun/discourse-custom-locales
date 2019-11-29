@@ -642,15 +642,15 @@ zh_CN:
     uncategorized_description: "Topics that don't need a category, or don't fit into any other existing category."
   trust_levels:
     newuser:
-      title: "new user"
+      title: "入门用户"
     basic:
-      title: "basic user"
+      title: "初级用户"
     member:
-      title: "member"
+      title: "成员用户"
     regular:
-      title: "regular"
+      title: "活跃用户"
     leader:
-      title: "leader"
+      title: "资深用户"
     change_failed_explanation: "You attempted to demote %{user_name} to '%{new_trust_level}'. However their trust level is already '%{current_trust_level}'. %{user_name} will remain at '%{current_trust_level}' - if you wish to demote user lock trust level first"
 
   post:
@@ -4119,23 +4119,23 @@ zh_CN:
       long_description: |
         This badge is granted the first time you edit one wiki post.
     basic_user:
-      name: Basic
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> all essential community functions
+      name: 初级用户
+      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">授予</a>所有重要的社区功能
       long_description: |
         This badge is granted when you reach trust level 1. Thanks for sticking around and reading a few topics to learn what our community is about. New user restrictions have been lifted; you’ve been granted all essential community abilities, such as personal messaging, flagging, wiki editing, and the ability to post multiple images and links.
     member:
-      name: Member
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> invitations, group messaging, more likes
+      name: 成员用户
+      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">授予</a>邀请、群发消息、更多点赞
       long_description: |
         This badge is granted when you reach trust level 2. Thanks for participating over a period of weeks to truly join our community. You can now send invitations from your user page or individual topics, create group personal messages, and have more likes per day.
     regular:
-      name: Regular
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> recategorize, rename, followed links, wiki, more likes
+      name: 活跃用户
+      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">授予</a>重新分类、重命名、跟随链接、Wiki、更多点赞
       long_description: |
         This badge is granted when you reach trust level 3. Thanks for being a regular part of our community over a period of months. You’re now one of the most active readers, and a reliable contributor that makes our community great. You can now recategorize and rename topics, take advantage of more powerful spam flags, access a private lounge area, and you’ll also get lots more likes per day.
     leader:
-      name: Leader
-      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">Granted</a> global edit, pin, close, archive, split and merge, more likes
+      name: 资深用户
+      description: <a href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/">授予</a>全局编辑、置顶、关闭、存档、拆分和合并、更多点赞
       long_description: |
         This badge is granted when you reach trust level 4. You’re a leader in this community as selected by staff, and you set a positive example for the rest of the community in your actions and words here. You have the ability to edit all posts, take common topic moderator actions such as pin, close, unlist, archive, split, and merge.
     welcome:
