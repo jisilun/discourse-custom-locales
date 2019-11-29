@@ -289,7 +289,7 @@ zh_CN:
       topic_count: "主题"
       post_count: "帖子"
       user_count: "用户"
-      active_user_count: "活跃<br><br>用户"
+      active_user_count: "活跃\n用户"
       contact: "联络我们"
       contact_info: "如果出现影响此网站的关键问题或紧急事件，请通过 %{contact_info} 与我们联络。"
 
@@ -684,7 +684,7 @@ zh_CN:
       topics: "Topics"
       posts: "Posts"
       mentions: "Mentions"
-      messages: "Messages"
+      messages: "信息"
       notification_level: "Default notification level for group messages"
       alias_levels:
         mentionable: "Who can @mention this group?"
@@ -798,7 +798,7 @@ zh_CN:
         rate_limit_error: "Posts can be downloaded once per day, please try again tomorrow."
       new_private_message: "新建信息"
       private_message: "Message"
-      private_messages: "Messages"
+      private_messages: "信息"
       user_notifications:
         ignore_duration_title: "Ignore Timer"
         ignore_duration_username: "Username"
@@ -893,7 +893,7 @@ zh_CN:
       delete_account_confirm: "Are you sure you want to permanently delete your account? This action cannot be undone!"
       deleted_yourself: "Your account has been deleted successfully."
       delete_yourself_not_allowed: "Please contact a staff member if you wish your account to be deleted."
-      unread_message_count: "Messages"
+      unread_message_count: "信息"
       admin_delete: "Delete"
       users: "用户"
       muted_users: "Muted"
@@ -2996,7 +2996,7 @@ zh_CN:
         other: "Earned this badge %{count} times"
       granted_on: "Granted %{date}"
       others_count: "Others with this badge (%{count})"
-      title: Badges
+      title: 徽章
       allow_title: "You can use this badge as a title"
       multiple_grant: "You can earn this multiple times"
       badge_count:
@@ -3177,12 +3177,12 @@ zh_CN:
         silenced: "Silenced:"
         suspended: "Suspended:"
         private_messages_short: "Msgs"
-        private_messages_title: "Messages"
+        private_messages_title: "信息"
         mobile_title: "Mobile"
         space_used: "%{usedSize} used"
         space_used_and_free: "%{usedSize} (%{freeSize} free)"
-        uploads: "Uploads"
-        backups: "Backups"
+        uploads: "上传"
+        backups: "备份"
         backup_count:
           one: "%{count} backup on %{location}"
           other: "%{count} backups on %{location}"
@@ -4342,7 +4342,7 @@ zh_CN:
           modal_no: "No, only apply change going forward"
 
       badges:
-        title: Badges
+        title: 徽章
         new_badge: New Badge
         new: New
         name: Name
@@ -4364,17 +4364,17 @@ zh_CN:
         reason: Reason
         expand: Expand &hellip;
         revoke_confirm: Are you sure you want to revoke this badge?
-        edit_badges: Edit Badges
-        grant_badge: Grant Badge
-        granted_badges: Granted Badges
-        grant: Grant
+        edit_badges: 编辑徽章
+        grant_badge: 授予徽章
+        granted_badges: 授予的徽章
+        grant: 授予
         no_user_badges: "%{name} has not been granted any badges."
         no_badges: There are no badges that can be granted.
         none_selected: "Select a badge to get started"
         allow_title: Allow badge to be used as a title
         multiple_grant: Can be granted multiple times
         listable: Show badge on the public badges page
-        enabled: Enable badge
+        enabled: 启用徽章
         icon: Icon
         image: Image
         icon_help: "Enter a Font Awesome icon name (use prefix 'far-' for regular icons and 'fab-' for brand icons)"
