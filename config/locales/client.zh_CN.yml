@@ -406,11 +406,11 @@ zh_CN:
       unclaim:
         help: "remove this claim"
       awaiting_approval: "Awaiting Approval"
-      delete: "Delete"
+      delete: "删除"
       settings:
         saved: "Saved"
-        save_changes: "Save Changes"
-        title: "Settings"
+        save_changes: "保存更改"
+        title: "设置"
         priorities:
           title: "Reviewable Priorities"
 
@@ -2596,13 +2596,13 @@ zh_CN:
     category:
       can: "can&hellip; "
       none: "(no category)"
-      all: "All categories"
+      all: "所有分类"
       choose: "category&hellip;"
       edit: "Edit"
       edit_dialog_title: "Edit: %{categoryName}"
       view: "View Topics in Category"
-      general: "General"
-      settings: "Settings"
+      general: "常规"
+      settings: "设置"
       topic_template: "Topic Template"
       tags: "Tags"
       tags_allowed_tags: "Restrict these tags to this category:"
@@ -3436,23 +3436,23 @@ zh_CN:
           completion: "Completion Time"
           actions: "Actions"
       plugins:
-        title: "Plugins"
-        installed: "Installed Plugins"
-        name: "Name"
-        none_installed: "You don't have any plugins installed."
-        version: "Version"
-        enabled: "Enabled?"
+        title: "插件"
+        installed: "已安装插件"
+        name: "名称"
+        none_installed: "您没有安装任何插件。"
+        version: "版本"
+        enabled: "是否启用？"
         is_enabled: "Y"
         not_enabled: "N"
-        change_settings: "Change Settings"
-        change_settings_short: "Settings"
-        howto: "How do I install plugins?"
-        official: "Official Plugin"
+        change_settings: "更改设置"
+        change_settings_short: "设置"
+        howto: "如何安装插件？"
+        official: "官方插件"
 
       backups:
-        title: "Backups"
+        title: "备份"
         menu:
-          backups: "Backups"
+          backups: "备份"
           logs: "Logs"
         none: "No backup available."
         read_only:
