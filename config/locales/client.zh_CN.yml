@@ -1967,14 +1967,14 @@ zh_CN:
           new: '<p>Your new topics appear here.</p><p>By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">new</span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
           unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge new-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the notification control at the bottom of each topic.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
       bottom:
-        latest: "没有更多最新的主题..."
-        posted: "没有更多发布的主题..."
-        read: "没有更多已读的主题..."
-        new: "没有更多新的主题..."
-        unread: "没有更多未读的主题..."
-        category: "There are no more {{category}} topics."
-        top: "没有更多热门的主题..."
-        bookmarks: "没有更多收藏的主题..."
+        latest: "没有更多最新的主题！"
+        posted: "没有更多发布的主题！"
+        read: "没有更多已读的主题！"
+        new: "没有更多新的主题！"
+        unread: "没有更多未读的主题！"
+        category: "没有更多{{category}}的主题！"
+        top: "没有更多热门的主题！"
+        bookmarks: "没有更多收藏的主题！"
 
     topic:
       filter_to:
@@ -2058,7 +2058,7 @@ zh_CN:
       browse_all_categories: 浏览所有分类
 
       view_latest_topics: 查看最新主题
-      suggest_create_topic: Why not create a topic?
+      suggest_create_topic: 为什么不创建一个主题？
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
       deleted: "The topic has been deleted"
@@ -2907,7 +2907,7 @@ zh_CN:
         this_month: "月"
         this_week: "周"
         today: "天"
-        other_periods: "其他时期"
+        other_periods: "其他热门"
 
     browser_update: 'Unfortunately, <a href="https://www.discourse.org/faq/#browser">your browser is too old to work on this site</a>. Please <a href="https://browsehappy.com">upgrade your browser</a>.'
 
@@ -3110,21 +3110,21 @@ zh_CN:
 
       topics:
         none:
-          unread: "You have no unread topics."
-          new: "You have no new topics."
-          read: "You haven't read any topics yet."
-          posted: "You haven't posted in any topics yet."
-          latest: "There are no latest topics."
-          bookmarks: "You have no bookmarked topics yet."
-          top: "There are no top topics."
+          unread: "您还没有未读的主题！"
+          new: "您还没有新的主题！"
+          read: "您还没有阅读任何主题！"
+          posted: "您还没有发布任何主题！"
+          latest: "没有最新主题！"
+          bookmarks: "您还没有收藏的主题！"
+          top: "没有热门主题！"
         bottom:
-          latest: "没有更多最新的主题。"
-          posted: "没有更多发布的主题。"
-          read: "没有更多已读的主题。"
-          new: "没有更多近期的主题。"
-          unread: "没有更多未读的主题。"
-          top: "没有更多热门的主题。"
-          bookmarks: "没有更多收藏的主题。"
+          latest: "没有更多最新的主题！"
+          posted: "没有更多发布的主题！"
+          read: "没有更多已读的主题！"
+          new: "没有更多新的主题！"
+          unread: "没有更多未读的主题！"
+          top: "没有更多热门的主题！"
+          bookmarks: "没有更多收藏的主题！"
 
     invite:
       custom_message: "Make your invite a little bit more personal by writing a <a href>custom message</a>."
