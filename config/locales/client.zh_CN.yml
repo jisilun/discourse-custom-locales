@@ -2847,20 +2847,20 @@ zh_CN:
         title_with_count:
           one: "最新（%{count}）"
           other: "最新（{{count}}）"
-        help: "最近帖子的主题"
+        help: "最新动态的主题"
       read:
         title: "已读"
-        help: "您上次读过的主题顺序"
+        help: "你上次读过的主题顺序"
       categories:
         title: "分类"
         title_in: "分类 - {{categoryName}}"
-        help: "所有主题按分类分组"
+        help: "按分类分组"
       unread:
         title: "未读"
         title_with_count:
           one: "未读（%{count}）"
           other: "未读（{{count}}）"
-        help: "您当前正在关注或跟踪的主题有未读帖子"
+        help: "你当前正在关注或跟踪的主题有未读帖子"
         lower_title_with_count:
           one: "%{count}个未读"
           other: "{{count}}个未读"
@@ -2869,17 +2869,17 @@ zh_CN:
           one: "%{count} new"
           other: "{{count}} new"
         lower_title: "new"
-        title: "近期"
+        title: "新的"
         title_with_count:
-          one: "近期（%{count}）"
-          other: "近期（{{count}}）"
-        help: "最近创建的主题"
+          one: "新的（%{count}）"
+          other: "新的（{{count}}）"
+        help: "最近几天创建的主题"
       posted:
         title: "我的帖子"
-        help: "你参与过的主题"
+        help: "你发表的主题"
       bookmarks:
         title: "收藏"
-        help: "你已收藏的主题"
+        help: "你收藏的主题"
       category:
         title: "{{categoryName}}"
         title_with_count:
