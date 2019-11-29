@@ -823,7 +823,7 @@ zh_CN:
       bio: "关于我"
       timezone: "时区"
       invited_by: "Invited By"
-      trust_level: "信任级别"
+      trust_level: "用户级别"
       notifications: "通知"
       statistics: "Stats"
       desktop_notifications:
@@ -1414,7 +1414,7 @@ zh_CN:
     last_seen: "出现时间"
     created: "已加入"
     created_lowercase: "created"
-    trust_level: "信任级别"
+    trust_level: "用户级别"
     search_hint: "username, email or IP address"
 
     create_account:
