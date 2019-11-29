@@ -291,14 +291,14 @@ zh_CN:
       user_count: "用户"
       active_user_count: "活跃用户"
       contact: "联络我们"
-      contact_info: "如果出现影响此网站的关键问题或紧急事件，请通过 %{contact_info} 与我们联络。"
+      contact_info: "如果出现影响网站的关键问题或紧急事件，请通过 %{contact_info} 与我们联络。"
 
     bookmarked:
-      title: "加入书签"
-      clear_bookmarks: "移出书签"
+      title: "加入收藏"
+      clear_bookmarks: "移出收藏"
       help:
-        bookmark: "Click to bookmark the first post on this topic"
-        unbookmark: "Click to remove all bookmarks in this topic"
+        bookmark: "点击以收藏该主题的首帖"
+        unbookmark: "点击以删除该主题的所有收藏"
 
     bookmarks:
       created: "you've bookmarked this post"
@@ -724,7 +724,7 @@ zh_CN:
     user_action_groups:
       "1": "点赞"
       "2": "点赞"
-      "3": "书签"
+      "3": "收藏"
       "4": "主题"
       "5": "回复"
       "6": "回应"
@@ -819,7 +819,7 @@ zh_CN:
       profile_hidden: "该用户的公开个人资料已隐藏。"
       expand_profile: "展开"
       collapse_profile: "收回"
-      bookmarks: "书签"
+      bookmarks: "收藏"
       bio: "关于我"
       timezone: "时区"
       invited_by: "Invited By"
@@ -1967,14 +1967,14 @@ zh_CN:
           new: '<p>Your new topics appear here.</p><p>By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">new</span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
           unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge new-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the notification control at the bottom of each topic.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
       bottom:
-        latest: "There are no more latest topics."
-        posted: "There are no more posted topics."
-        read: "There are no more read topics."
-        new: "There are no more new topics."
-        unread: "没有更多未读的主题。"
+        latest: "没有更多最新的主题..."
+        posted: "没有更多发布的主题..."
+        read: "没有更多已读的主题..."
+        new: "没有更多新的主题..."
+        unread: "没有更多未读的主题..."
         category: "There are no more {{category}} topics."
-        top: "没有更多热门的主题。"
-        bookmarks: "没有更多收藏的主题。"
+        top: "没有更多热门的主题..."
+        bookmarks: "没有更多收藏的主题..."
 
     topic:
       filter_to:
@@ -2876,10 +2876,10 @@ zh_CN:
         help: "最近创建的主题"
       posted:
         title: "我的帖子"
-        help: "您参与过的主题"
+        help: "你参与过的主题"
       bookmarks:
-        title: "书签"
-        help: "您已收藏的主题"
+        title: "收藏"
+        help: "你已收藏的主题"
       category:
         title: "{{categoryName}}"
         title_with_count:
@@ -2940,7 +2940,7 @@ zh_CN:
         unread: "%{shortcut} 未读"
         categories: "%{shortcut} 分类"
         top: "%{shortcut} 热门"
-        bookmarks: "%{shortcut} 书签"
+        bookmarks: "%{shortcut} 收藏"
         profile: "%{shortcut} 个人资料"
         messages: "%{shortcut} 信息"
         drafts: "%{shortcut} 草稿"
