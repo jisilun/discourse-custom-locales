@@ -405,24 +405,24 @@ zh_CN:
         title: "claim this topic"
       unclaim:
         help: "remove this claim"
-      awaiting_approval: "Awaiting Approval"
+      awaiting_approval: "正在等待审查"
       delete: "删除"
       settings:
-        saved: "Saved"
+        saved: "已保存" 
         save_changes: "保存更改"
         title: "设置"
         priorities:
-          title: "Reviewable Priorities"
+          title: "需审查的优先级"
 
-      moderation_history: "Moderation History"
-      view_all: "View All"
-      grouped_by_topic: "Grouped by Topic"
-      none: "There are no items to review."
-      view_pending: "view pending"
+      moderation_history: "审查历史"
+      view_all: "查看全部"
+      grouped_by_topic: "按主题分组"
+      none: "没有需要审查的项目。"
+      view_pending: "查看待处理"
       topic_has_pending:
         one: "This topic has <b>%{count}</b> post pending approval"
         other: "This topic has <b>{{count}}</b> posts pending approval"
-      title: "Review"
+      title: "审查"
       topic: "Topic:"
       filtered_topic: "You have filtered to reviewable content in a single topic."
       filtered_user: "User"
@@ -1072,11 +1072,11 @@ zh_CN:
           generic: "Your %{provider} account will be used for authentication."
 
       name:
-        title: "Name"
-        instructions: "your full name (optional)"
-        instructions_required: "Your full name"
-        too_short: "Your name is too short"
-        ok: "Your name looks good"
+        title: "昵称"
+        instructions: "您的昵称（选项）"
+        instructions_required: "您的昵称"
+        too_short: "您的昵称字符太少了"
+        ok: "您的昵称看起来真不错"
       username:
         title: "用户名"
         instructions: "独特，无空格，简短"
@@ -1241,7 +1241,7 @@ zh_CN:
         same_as_username: "Your password is the same as your username."
         same_as_email: "Your password is the same as your email."
         ok: "Your password looks good."
-        instructions: "至少%{count}位数"
+        instructions: "至少需要%{count}个字符"
 
       summary:
         title: "摘要"
@@ -1467,7 +1467,7 @@ zh_CN:
       security_key_not_allowed_error: "The security key authentication process either timed out or was cancelled."
       security_key_no_matching_credential_error: "No matching credentials could be found in the provided security key."
       security_key_support_missing_error: "Your current device or browser does not support the use of security keys. Please use a different method."
-      email_placeholder: "email or 用户名"
+      email_placeholder: "电子邮箱或用户名"
       caps_lock_warning: "Caps Lock is on"
       error: "Unknown error"
       cookies_error: "Your browser seems to have cookies disabled. You might not be able to log in without enabling them first."
@@ -2277,7 +2277,7 @@ zh_CN:
         error: "Sorry, there was an error inviting that user."
         group_name: "group name"
 
-      controls: "Topic Controls"
+      controls: "主题控制"
 
       invite_reply:
         title: "Invite"
