@@ -153,7 +153,7 @@ zh_CN:
 
     action_codes:
       public_topic: "%{when}使该主题设为公开"
-      private_topic: "%{when}使该主题设为私信"
+      private_topic: "%{when}使该主题设为信息"
       split_topic: "%{when}使该主题设为拆分"
       invited_user: "%{when}已邀请%{who}"
       invited_group: "%{when}已邀请%{who}"
