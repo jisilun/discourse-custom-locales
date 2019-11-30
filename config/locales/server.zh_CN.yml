@@ -397,10 +397,10 @@ zh_CN:
       cant_allow_membership_requests: "You cannot allow membership requests for a group without any owners."
       already_requested_membership: "You have already requested membership for this group."
     default_names:
-      everyone: "大家"
+      everyone: "所有人"
       admins: "管理员"
-      moderators: "版主"
-      staff: "管理人员"
+      moderators: "主持人"
+      staff: "工作人员"
       trust_level_0: "用户级别（0）"
       trust_level_1: "用户级别（1）"
       trust_level_2: "用户级别（2）"
