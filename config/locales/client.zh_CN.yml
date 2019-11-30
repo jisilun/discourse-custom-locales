@@ -1955,26 +1955,26 @@ zh_CN:
         changed_tags: "The tags of those topics were changed."
 
       none:
-        unread: "You have no unread topics."
-        new: "You have no new topics."
-        read: "You haven't read any topics yet."
-        posted: "You haven't posted in any topics yet."
-        latest: "There are no latest topics. That's sad."
-        bookmarks: "You have no bookmarked topics yet."
-        category: "There are no {{category}} topics."
-        top: "There are no top topics."
+        unread: "您暂无未读的主题。"
+        new: "您暂无新的主题。"
+        read: "您尚未阅读任何主题。"
+        posted: "您尚未参与任何主题。"
+        latest: "暂无最新主题。"
+        bookmarks: "您暂无收藏的主题。"
+        category: "暂无{{category}}主题。"
+        top: "暂无热门的主题。"
         educate:
           new: '<p>Your new topics appear here.</p><p>By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">new</span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
           unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge new-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the notification control at the bottom of each topic.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
       bottom:
-        latest: "没有更多最新的主题！"
-        posted: "没有更多发布的主题！"
-        read: "没有更多已读的主题！"
-        new: "没有更多新的主题！"
-        unread: "没有更多未读的主题！"
-        category: "没有更多{{category}}的主题！"
-        top: "没有更多热门的主题！"
-        bookmarks: "没有更多收藏的主题！"
+        latest: "暂无更多最新的主题。"
+        posted: "暂无更多参与的主题。"
+        read: "暂无更多已读的主题。"
+        new: "暂无更多新的主题。"
+        unread: "暂无更多未读的主题。"
+        category: "暂无更多{{category}}的主题。"
+        top: "暂无更多热门的主题。"
+        bookmarks: "暂无更多收藏的主题。"
 
     topic:
       filter_to:
@@ -2854,7 +2854,7 @@ zh_CN:
       categories:
         title: "分类"
         title_in: "分类 - {{categoryName}}"
-        help: "按分类分组"
+        help: "按分类查看主题"
       unread:
         title: "未读"
         title_with_count:
@@ -2907,7 +2907,7 @@ zh_CN:
         this_month: "月"
         this_week: "周"
         today: "天"
-        other_periods: "其他热门"
+        other_periods: "其他周期"
 
     browser_update: 'Unfortunately, <a href="https://www.discourse.org/faq/#browser">your browser is too old to work on this site</a>. Please <a href="https://browsehappy.com">upgrade your browser</a>.'
 
@@ -3110,21 +3110,21 @@ zh_CN:
 
       topics:
         none:
-          unread: "您还没有未读的主题！"
-          new: "您还没有新的主题！"
-          read: "您还没有阅读任何主题！"
-          posted: "您还没有发布任何主题！"
-          latest: "没有最新主题！"
-          bookmarks: "您还没有收藏的主题！"
-          top: "没有热门主题！"
+          unread: "您暂无未读的主题。"
+          new: "您暂无新的主题。"
+          read: "您尚未阅读任何主题。"
+          posted: "您尚未参与任何主题。"
+          latest: "暂无最新主题。"
+          bookmarks: "您暂无收藏的主题。"
+          top: "暂无热门主题。"
         bottom:
-          latest: "没有更多最新的主题！"
-          posted: "没有更多发布的主题！"
-          read: "没有更多已读的主题！"
-          new: "没有更多新的主题！"
-          unread: "没有更多未读的主题！"
-          top: "没有更多热门的主题！"
-          bookmarks: "没有更多收藏的主题！"
+          latest: "暂无更多最新的主题。"
+          posted: "暂无更多参与的主题。"
+          read: "暂无更多已读的主题。"
+          new: "暂无更多新的主题。"
+          unread: "暂无更多未读的主题。"
+          top: "暂无更多热门的主题。"
+          bookmarks: "暂无更多收藏的主题。"
 
     invite:
       custom_message: "Make your invite a little bit more personal by writing a <a href>custom message</a>."
