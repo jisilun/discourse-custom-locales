@@ -1193,9 +1193,9 @@ zh_CN:
 
       invited:
         search: "type to search invites..."
-        title: "Invites"
-        user: "Invited User"
-        sent: "Sent"
+        title: "邀请"
+        user: "受邀用户"
+        sent: "发送"
         none: "No invites to display."
         truncated:
           one: "Showing the first invite."
@@ -1204,7 +1204,7 @@ zh_CN:
         redeemed_tab: "Redeemed"
         redeemed_tab_with_count: "Redeemed ({{count}})"
         redeemed_at: "Redeemed"
-        pending: "Pending Invites"
+        pending: "等待邀请"
         pending_tab: "Pending"
         pending_tab_with_count: "Pending ({{count}})"
         topics_entered: "Topics Viewed"
@@ -4029,13 +4029,13 @@ zh_CN:
 
       users:
         title: "Users"
-        create: "Add Admin User"
-        last_emailed: "Last Emailed"
+        create: "添加管理员用户"
+        last_emailed: "最后寄出邮件"
         not_found: "Sorry, that username doesn't exist in our system."
         id_not_found: "Sorry, that user id doesn't exist in our system."
         active: "Activated"
-        show_emails: "Show Emails"
-        hide_emails: "Hide Emails"
+        show_emails: "显示电子邮箱"
+        hide_emails: "隐藏电子邮箱"
         nav:
           new: "New"
           active: "Active"
@@ -4132,10 +4132,10 @@ zh_CN:
         like_count: Likes Given / Received
         last_100_days: "in the last 100 days"
         private_topics_count: Private Topics
-        posts_read_count: Posts Read
-        post_count: Posts Created
+        posts_read_count: 已读帖子
+        post_count: 帖子已创建
         second_factor_enabled: Two Factor Authentication Enabled
-        topics_entered: Topics Viewed
+        topics_entered: 已看主题
         flags_given_count: Flags Given
         flags_received_count: Flags Received
         warnings_received_count: Warnings Received
