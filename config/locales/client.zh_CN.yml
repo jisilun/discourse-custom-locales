@@ -279,8 +279,8 @@ zh_CN:
       title: "关于%{title}"
       stats: "站点统计"
       our_admins: "我们的管理员"
-      our_moderators: "我们的版主"
-      moderators: "版主"
+      our_moderators: "我们的主持人"
+      moderators: "主持人"
       stat:
         all_time: "全部时间"
         last_7_days: "最近7天"
@@ -4489,16 +4489,16 @@ zh_CN:
       quit: "以后再说"
 
       staff_count:
-        one: "阁下的社区有%{count}位管理人员。"
-        other: "社区包含阁下在内共有%{count}位管理人员。"
+        one: "阁下的社区有%{count}位工作人员。"
+        other: "社区包含阁下在内共有%{count}位工作人员。"
 
       invites:
         add_user: "添加"
-        none_added: "你尚未邀请任何管理人员，你确定要继续吗？"
+        none_added: "尚未邀请任何工作人员，您确定要继续吗？"
         roles:
-          admin: "管理"
-          moderator: "版主"
-          regular: "用户"
+          admin: "管理员"
+          moderator: "主持人"
+          regular: "普通用户"
 
       previews:
         topic_title: "讨论的主题"
